@@ -1,0 +1,4760 @@
+[
+  {
+    "demo": true,
+    "requestId": "demo-1791644124159",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Hà Nội · Phố cổ & di sản",
+      "summary": "3 ngày dành cho 2 người. Dạo quanh hồ và khám phá không gian trung tâm. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Hồ Hoàn Kiếm",
+              "description": "Khám phá Hồ Hoàn Kiếm, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Hồ Hoàn Kiếm, Hà Nội",
+              "cost": 566000,
+              "placeId": "ha-noi-1",
+              "sourceIds": [
+                "vn-ha-noi"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý phở, bún chả và cà phê trứng. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Hà Nội",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Văn Miếu Quốc Tử Giám",
+              "description": "Ghé Văn Miếu Quốc Tử Giám vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Văn Miếu Quốc Tử Giám, Hà Nội",
+              "cost": 0,
+              "placeId": "ha-noi-2",
+              "sourceIds": [
+                "vn-ha-noi"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Hà Nội",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Phố cổ Hà Nội",
+              "description": "Khám phá Phố cổ Hà Nội, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Phố cổ Hà Nội, Hà Nội",
+              "cost": 566000,
+              "placeId": "ha-noi-3",
+              "sourceIds": [
+                "vn-ha-noi"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý phở, bún chả và cà phê trứng. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Hà Nội",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Nhà thờ Lớn Hà Nội",
+              "description": "Ghé Nhà thờ Lớn Hà Nội vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Nhà thờ Lớn Hà Nội, Hà Nội",
+              "cost": 0,
+              "placeId": "ha-noi-4",
+              "sourceIds": [
+                "vn-ha-noi"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Hà Nội",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Hồ Hoàn Kiếm",
+              "description": "Khám phá Hồ Hoàn Kiếm, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Hồ Hoàn Kiếm, Hà Nội",
+              "cost": 566000,
+              "placeId": "ha-noi-1",
+              "sourceIds": [
+                "vn-ha-noi"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý phở, bún chả và cà phê trứng. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Hà Nội",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Văn Miếu Quốc Tử Giám",
+              "description": "Ghé Văn Miếu Quốc Tử Giám vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Văn Miếu Quốc Tử Giám, Hà Nội",
+              "cost": 0,
+              "placeId": "ha-noi-2",
+              "sourceIds": [
+                "vn-ha-noi"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Hà Nội",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Ưu tiên đi bộ trong phố cổ; kiểm tra giờ tham quan từng di tích.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-ha-noi",
+        "title": "Du lịch Hà Nội",
+        "url": "https://vietnam.travel/vi/things-to-do/11-must-see-attractions-ha-noi",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [
+        "Hanoi"
+      ],
+      "region": "Bắc",
+      "cluster": "Phố cổ & di sản",
+      "demo": {
+        "subtitle": "Phố cổ & di sản",
+        "places": [
+          "Hồ Hoàn Kiếm",
+          "Văn Miếu Quốc Tử Giám",
+          "Phố cổ Hà Nội",
+          "Nhà thờ Lớn Hà Nội"
+        ],
+        "food": "phở, bún chả và cà phê trứng",
+        "detail": "Dạo quanh hồ và khám phá không gian trung tâm.",
+        "note": "Ưu tiên đi bộ trong phố cổ; kiểm tra giờ tham quan từng di tích."
+      },
+      "sources": [
+        {
+          "id": "vn-ha-noi",
+          "title": "Du lịch Hà Nội",
+          "url": "https://vietnam.travel/vi/things-to-do/11-must-see-attractions-ha-noi",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "ha-noi-1",
+          "name": "Hồ Hoàn Kiếm",
+          "summary": "Dạo quanh hồ và khám phá không gian trung tâm.",
+          "sourceIds": [
+            "vn-ha-noi"
+          ]
+        },
+        {
+          "id": "ha-noi-2",
+          "name": "Văn Miếu Quốc Tử Giám",
+          "summary": "Tìm hiểu di sản giáo dục và kiến trúc truyền thống.",
+          "sourceIds": [
+            "vn-ha-noi"
+          ]
+        },
+        {
+          "id": "ha-noi-3",
+          "name": "Phố cổ Hà Nội",
+          "summary": "Khám phá phố nghề, ẩm thực và sinh hoạt địa phương.",
+          "sourceIds": [
+            "vn-ha-noi"
+          ]
+        },
+        {
+          "id": "ha-noi-4",
+          "name": "Nhà thờ Lớn Hà Nội",
+          "summary": "Ghé khu vực nhà thờ và các phố lân cận.",
+          "sourceIds": [
+            "vn-ha-noi"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Hà Nội",
+    "request": {
+      "destination": "Hà Nội",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Hà Nội · Phố cổ & di sản. 3 ngày dành cho 2 người. Dạo quanh hồ và khám phá không gian trung tâm. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Hồ Hoàn Kiếm, Thưởng thức hương vị bản địa, Văn Miếu Quốc Tử Giám, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Phố cổ Hà Nội, Thưởng thức hương vị bản địa, Nhà thờ Lớn Hà Nội, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Hồ Hoàn Kiếm, Thưởng thức hương vị bản địa, Văn Miếu Quốc Tử Giám, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.207Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124216",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "TP. Hồ Chí Minh · Nhịp sống Sài Gòn",
+      "summary": "3 ngày dành cho 2 người. Khám phá khu chợ và hàng hóa địa phương. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Chợ Bến Thành",
+              "description": "Khám phá Chợ Bến Thành, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Chợ Bến Thành, TP. Hồ Chí Minh",
+              "cost": 566000,
+              "placeId": "tp-ho-chi-minh-1",
+              "sourceIds": [
+                "vn-tp-ho-chi-minh"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý cơm tấm, bánh mì và món ăn đường phố. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, TP. Hồ Chí Minh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Dinh Độc Lập",
+              "description": "Ghé Dinh Độc Lập vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Dinh Độc Lập, TP. Hồ Chí Minh",
+              "cost": 0,
+              "placeId": "tp-ho-chi-minh-2",
+              "sourceIds": [
+                "vn-tp-ho-chi-minh"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, TP. Hồ Chí Minh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Bảo tàng Chứng tích Chiến tranh",
+              "description": "Khám phá Bảo tàng Chứng tích Chiến tranh, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Bảo tàng Chứng tích Chiến tranh, TP. Hồ Chí Minh",
+              "cost": 566000,
+              "placeId": "tp-ho-chi-minh-3",
+              "sourceIds": [
+                "vn-tp-ho-chi-minh"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý cơm tấm, bánh mì và món ăn đường phố. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, TP. Hồ Chí Minh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Bưu điện Trung tâm Sài Gòn",
+              "description": "Ghé Bưu điện Trung tâm Sài Gòn vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Bưu điện Trung tâm Sài Gòn, TP. Hồ Chí Minh",
+              "cost": 0,
+              "placeId": "tp-ho-chi-minh-4",
+              "sourceIds": [
+                "vn-tp-ho-chi-minh"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, TP. Hồ Chí Minh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Chợ Bến Thành",
+              "description": "Khám phá Chợ Bến Thành, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Chợ Bến Thành, TP. Hồ Chí Minh",
+              "cost": 566000,
+              "placeId": "tp-ho-chi-minh-1",
+              "sourceIds": [
+                "vn-tp-ho-chi-minh"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý cơm tấm, bánh mì và món ăn đường phố. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, TP. Hồ Chí Minh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Dinh Độc Lập",
+              "description": "Ghé Dinh Độc Lập vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Dinh Độc Lập, TP. Hồ Chí Minh",
+              "cost": 0,
+              "placeId": "tp-ho-chi-minh-2",
+              "sourceIds": [
+                "vn-tp-ho-chi-minh"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, TP. Hồ Chí Minh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Dành thời gian di chuyển giữa các điểm; kiểm tra giờ mở cửa bảo tàng.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-tp-ho-chi-minh",
+        "title": "Du lịch TP. Hồ Chí Minh",
+        "url": "https://vietnam.travel/places-to-go/southeastern-vietnam/ho-chi-minh-city",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [
+        "Hồ Chí Minh",
+        "TP HCM",
+        "TPHCM",
+        "Sài Gòn",
+        "Saigon"
+      ],
+      "region": "Nam",
+      "cluster": "Nhịp sống Sài Gòn",
+      "demo": {
+        "subtitle": "Nhịp sống Sài Gòn",
+        "places": [
+          "Chợ Bến Thành",
+          "Dinh Độc Lập",
+          "Bảo tàng Chứng tích Chiến tranh",
+          "Bưu điện Trung tâm Sài Gòn"
+        ],
+        "food": "cơm tấm, bánh mì và món ăn đường phố",
+        "detail": "Khám phá khu chợ và hàng hóa địa phương.",
+        "note": "Dành thời gian di chuyển giữa các điểm; kiểm tra giờ mở cửa bảo tàng."
+      },
+      "sources": [
+        {
+          "id": "vn-tp-ho-chi-minh",
+          "title": "Du lịch TP. Hồ Chí Minh",
+          "url": "https://vietnam.travel/places-to-go/southeastern-vietnam/ho-chi-minh-city",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "tp-ho-chi-minh-1",
+          "name": "Chợ Bến Thành",
+          "summary": "Khám phá khu chợ và hàng hóa địa phương.",
+          "sourceIds": [
+            "vn-tp-ho-chi-minh"
+          ]
+        },
+        {
+          "id": "tp-ho-chi-minh-2",
+          "name": "Dinh Độc Lập",
+          "summary": "Tìm hiểu lịch sử và kiến trúc công trình.",
+          "sourceIds": [
+            "vn-tp-ho-chi-minh"
+          ]
+        },
+        {
+          "id": "tp-ho-chi-minh-3",
+          "name": "Bảo tàng Chứng tích Chiến tranh",
+          "summary": "Tham quan trưng bày lịch sử; cân nhắc nội dung phù hợp trẻ nhỏ.",
+          "sourceIds": [
+            "vn-tp-ho-chi-minh"
+          ]
+        },
+        {
+          "id": "tp-ho-chi-minh-4",
+          "name": "Bưu điện Trung tâm Sài Gòn",
+          "summary": "Ghé công trình kiến trúc tại khu vực trung tâm.",
+          "sourceIds": [
+            "vn-tp-ho-chi-minh"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "TP. Hồ Chí Minh",
+    "request": {
+      "destination": "TP. Hồ Chí Minh",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. TP. Hồ Chí Minh · Nhịp sống Sài Gòn. 3 ngày dành cho 2 người. Khám phá khu chợ và hàng hóa địa phương. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Chợ Bến Thành, Thưởng thức hương vị bản địa, Dinh Độc Lập, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Bảo tàng Chứng tích Chiến tranh, Thưởng thức hương vị bản địa, Bưu điện Trung tâm Sài Gòn, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Chợ Bến Thành, Thưởng thức hương vị bản địa, Dinh Độc Lập, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.217Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124222",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Huế · Cố đô & sông Hương",
+      "summary": "3 ngày dành cho 2 người. Khám phá cung điện và không gian di sản triều Nguyễn. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Đại Nội Huế",
+              "description": "Khám phá Đại Nội Huế, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Đại Nội Huế, Huế",
+              "cost": 566000,
+              "placeId": "hue-1",
+              "sourceIds": [
+                "vn-hue"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bún bò Huế, bánh bèo và bánh khoái. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Huế",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Chùa Thiên Mụ",
+              "description": "Ghé Chùa Thiên Mụ vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Chùa Thiên Mụ, Huế",
+              "cost": 0,
+              "placeId": "hue-2",
+              "sourceIds": [
+                "vn-hue"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Huế",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Chợ Đông Ba",
+              "description": "Khám phá Chợ Đông Ba, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Chợ Đông Ba, Huế",
+              "cost": 566000,
+              "placeId": "hue-3",
+              "sourceIds": [
+                "vn-hue"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bún bò Huế, bánh bèo và bánh khoái. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Huế",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Lăng Tự Đức",
+              "description": "Ghé Lăng Tự Đức vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Lăng Tự Đức, Huế",
+              "cost": 0,
+              "placeId": "hue-4",
+              "sourceIds": [
+                "vn-hue"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Huế",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Đại Nội Huế",
+              "description": "Khám phá Đại Nội Huế, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Đại Nội Huế, Huế",
+              "cost": 566000,
+              "placeId": "hue-1",
+              "sourceIds": [
+                "vn-hue"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bún bò Huế, bánh bèo và bánh khoái. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Huế",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Chùa Thiên Mụ",
+              "description": "Ghé Chùa Thiên Mụ vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Chùa Thiên Mụ, Huế",
+              "cost": 0,
+              "placeId": "hue-2",
+              "sourceIds": [
+                "vn-hue"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Huế",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Trang phục phù hợp khi thăm di tích; dành buổi riêng cho lăng tẩm.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-hue",
+        "title": "Du lịch Huế",
+        "url": "https://vietnam.travel/vi/places-to-go/central-vietnam/hue",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [],
+      "region": "Trung",
+      "cluster": "Cố đô & sông Hương",
+      "demo": {
+        "subtitle": "Cố đô & sông Hương",
+        "places": [
+          "Đại Nội Huế",
+          "Chùa Thiên Mụ",
+          "Chợ Đông Ba",
+          "Lăng Tự Đức"
+        ],
+        "food": "bún bò Huế, bánh bèo và bánh khoái",
+        "detail": "Khám phá cung điện và không gian di sản triều Nguyễn.",
+        "note": "Trang phục phù hợp khi thăm di tích; dành buổi riêng cho lăng tẩm."
+      },
+      "sources": [
+        {
+          "id": "vn-hue",
+          "title": "Du lịch Huế",
+          "url": "https://vietnam.travel/vi/places-to-go/central-vietnam/hue",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "hue-1",
+          "name": "Đại Nội Huế",
+          "summary": "Khám phá cung điện và không gian di sản triều Nguyễn.",
+          "sourceIds": [
+            "vn-hue"
+          ]
+        },
+        {
+          "id": "hue-2",
+          "name": "Chùa Thiên Mụ",
+          "summary": "Tham quan ngôi chùa bên sông Hương.",
+          "sourceIds": [
+            "vn-hue"
+          ]
+        },
+        {
+          "id": "hue-3",
+          "name": "Chợ Đông Ba",
+          "summary": "Tìm hiểu sản vật và ẩm thực địa phương.",
+          "sourceIds": [
+            "vn-hue"
+          ]
+        },
+        {
+          "id": "hue-4",
+          "name": "Lăng Tự Đức",
+          "summary": "Tham quan quần thể lăng tẩm và cảnh quan.",
+          "sourceIds": [
+            "vn-hue"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Huế",
+    "request": {
+      "destination": "Huế",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Huế · Cố đô & sông Hương. 3 ngày dành cho 2 người. Khám phá cung điện và không gian di sản triều Nguyễn. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Đại Nội Huế, Thưởng thức hương vị bản địa, Chùa Thiên Mụ, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Chợ Đông Ba, Thưởng thức hương vị bản địa, Lăng Tự Đức, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Đại Nội Huế, Thưởng thức hương vị bản địa, Chùa Thiên Mụ, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.223Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124227",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Hải Phòng · Cát Bà & Lan Hạ",
+      "summary": "3 ngày dành cho 2 người. Tham quan cảnh quan biển và đảo theo tuyến tàu được phép. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Vịnh Lan Hạ",
+              "description": "Khám phá Vịnh Lan Hạ, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Vịnh Lan Hạ, Hải Phòng",
+              "cost": 566000,
+              "placeId": "hai-phong-1",
+              "sourceIds": [
+                "vn-hai-phong"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hải sản địa phương và món ăn vùng biển. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Hải Phòng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Vườn quốc gia Cát Bà",
+              "description": "Ghé Vườn quốc gia Cát Bà vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Vườn quốc gia Cát Bà, Hải Phòng",
+              "cost": 0,
+              "placeId": "hai-phong-2",
+              "sourceIds": [
+                "vn-hai-phong"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Hải Phòng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Bãi Cát Cò",
+              "description": "Khám phá Bãi Cát Cò, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Bãi Cát Cò, Hải Phòng",
+              "cost": 566000,
+              "placeId": "hai-phong-3",
+              "sourceIds": [
+                "vn-hai-phong"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hải sản địa phương và món ăn vùng biển. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Hải Phòng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Trung tâm Cát Bà",
+              "description": "Ghé Trung tâm Cát Bà vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Trung tâm Cát Bà, Hải Phòng",
+              "cost": 0,
+              "placeId": "hai-phong-4",
+              "sourceIds": [
+                "vn-hai-phong"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Hải Phòng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Vịnh Lan Hạ",
+              "description": "Khám phá Vịnh Lan Hạ, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Vịnh Lan Hạ, Hải Phòng",
+              "cost": 566000,
+              "placeId": "hai-phong-1",
+              "sourceIds": [
+                "vn-hai-phong"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hải sản địa phương và món ăn vùng biển. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Hải Phòng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Vườn quốc gia Cát Bà",
+              "description": "Ghé Vườn quốc gia Cát Bà vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Vườn quốc gia Cát Bà, Hải Phòng",
+              "cost": 0,
+              "placeId": "hai-phong-2",
+              "sourceIds": [
+                "vn-hai-phong"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Hải Phòng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Tour tập trung Cát Bà; kiểm tra lịch phà, tàu và thời tiết biển.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-hai-phong",
+        "title": "Du lịch Hải Phòng",
+        "url": "https://vietnam.travel/vi/things-to-do/nature-culture-and-adventure-vietnam%E2%80%99s-top-5-beach-islands",
+        "checkedAt": "2026-10-10"
+      },
+      {
+        "id": "vn-hai-phong-extra",
+        "title": "Tham khảo Cát Bà & Lan Hạ",
+        "url": "https://www.vietnam.travel/vi/things-to-do/lan-ha-bay-gliding-through-emerald-waters",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [
+        "Cát Bà",
+        "Catba"
+      ],
+      "region": "Bắc",
+      "cluster": "Cát Bà & Lan Hạ",
+      "demo": {
+        "subtitle": "Cát Bà & Lan Hạ",
+        "places": [
+          "Vịnh Lan Hạ",
+          "Vườn quốc gia Cát Bà",
+          "Bãi Cát Cò",
+          "Trung tâm Cát Bà"
+        ],
+        "food": "hải sản địa phương và món ăn vùng biển",
+        "detail": "Tham quan cảnh quan biển và đảo theo tuyến tàu được phép.",
+        "note": "Tour tập trung Cát Bà; kiểm tra lịch phà, tàu và thời tiết biển."
+      },
+      "sources": [
+        {
+          "id": "vn-hai-phong",
+          "title": "Du lịch Hải Phòng",
+          "url": "https://vietnam.travel/vi/things-to-do/nature-culture-and-adventure-vietnam%E2%80%99s-top-5-beach-islands",
+          "checkedAt": "2026-10-10"
+        },
+        {
+          "id": "vn-hai-phong-extra",
+          "title": "Tham khảo Cát Bà & Lan Hạ",
+          "url": "https://www.vietnam.travel/vi/things-to-do/lan-ha-bay-gliding-through-emerald-waters",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "hai-phong-1",
+          "name": "Vịnh Lan Hạ",
+          "summary": "Tham quan cảnh quan biển và đảo theo tuyến tàu được phép.",
+          "sourceIds": [
+            "vn-hai-phong"
+          ]
+        },
+        {
+          "id": "hai-phong-2",
+          "name": "Vườn quốc gia Cát Bà",
+          "summary": "Khám phá thiên nhiên trên tuyến phù hợp thể lực.",
+          "sourceIds": [
+            "vn-hai-phong"
+          ]
+        },
+        {
+          "id": "hai-phong-3",
+          "name": "Bãi Cát Cò",
+          "summary": "Dạo biển và nghỉ ngơi khi điều kiện cho phép.",
+          "sourceIds": [
+            "vn-hai-phong"
+          ]
+        },
+        {
+          "id": "hai-phong-4",
+          "name": "Trung tâm Cát Bà",
+          "summary": "Khám phá đời sống và dịch vụ trên đảo.",
+          "sourceIds": [
+            "vn-hai-phong"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Hải Phòng",
+    "request": {
+      "destination": "Hải Phòng",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Hải Phòng · Cát Bà & Lan Hạ. 3 ngày dành cho 2 người. Tham quan cảnh quan biển và đảo theo tuyến tàu được phép. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Vịnh Lan Hạ, Thưởng thức hương vị bản địa, Vườn quốc gia Cát Bà, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Bãi Cát Cò, Thưởng thức hương vị bản địa, Trung tâm Cát Bà, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Vịnh Lan Hạ, Thưởng thức hương vị bản địa, Vườn quốc gia Cát Bà, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.228Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124229",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Lào Cai · Sa Pa & bản làng",
+      "summary": "3 ngày dành cho 2 người. Ngắm cảnh thung lũng và các tuyến đi bộ. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Thung lũng Mường Hoa",
+              "description": "Khám phá Thung lũng Mường Hoa, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Thung lũng Mường Hoa, Lào Cai",
+              "cost": 566000,
+              "placeId": "lao-cai-1",
+              "sourceIds": [
+                "vn-lao-cai"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý món ăn vùng cao và rau địa phương. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Lào Cai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Bản Cát Cát",
+              "description": "Ghé Bản Cát Cát vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Bản Cát Cát, Lào Cai",
+              "cost": 0,
+              "placeId": "lao-cai-2",
+              "sourceIds": [
+                "vn-lao-cai"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Lào Cai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Bản Tả Phìn",
+              "description": "Khám phá Bản Tả Phìn, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Bản Tả Phìn, Lào Cai",
+              "cost": 566000,
+              "placeId": "lao-cai-3",
+              "sourceIds": [
+                "vn-lao-cai"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý món ăn vùng cao và rau địa phương. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Lào Cai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Fansipan",
+              "description": "Ghé Fansipan vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Fansipan, Lào Cai",
+              "cost": 0,
+              "placeId": "lao-cai-4",
+              "sourceIds": [
+                "vn-lao-cai"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Lào Cai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Thung lũng Mường Hoa",
+              "description": "Khám phá Thung lũng Mường Hoa, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Thung lũng Mường Hoa, Lào Cai",
+              "cost": 566000,
+              "placeId": "lao-cai-1",
+              "sourceIds": [
+                "vn-lao-cai"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý món ăn vùng cao và rau địa phương. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Lào Cai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Bản Cát Cát",
+              "description": "Ghé Bản Cát Cát vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Bản Cát Cát, Lào Cai",
+              "cost": 0,
+              "placeId": "lao-cai-2",
+              "sourceIds": [
+                "vn-lao-cai"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Lào Cai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Tour tập trung Sa Pa; đường đồi núi cần thời gian dự phòng.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-lao-cai",
+        "title": "Du lịch Lào Cai",
+        "url": "https://vietnam.travel/places-to-go/northern-midlands-mountains/sapa",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [
+        "Sa Pa",
+        "Sapa"
+      ],
+      "region": "Bắc",
+      "cluster": "Sa Pa & bản làng",
+      "demo": {
+        "subtitle": "Sa Pa & bản làng",
+        "places": [
+          "Thung lũng Mường Hoa",
+          "Bản Cát Cát",
+          "Bản Tả Phìn",
+          "Fansipan"
+        ],
+        "food": "món ăn vùng cao và rau địa phương",
+        "detail": "Ngắm cảnh thung lũng và các tuyến đi bộ.",
+        "note": "Tour tập trung Sa Pa; đường đồi núi cần thời gian dự phòng."
+      },
+      "sources": [
+        {
+          "id": "vn-lao-cai",
+          "title": "Du lịch Lào Cai",
+          "url": "https://vietnam.travel/places-to-go/northern-midlands-mountains/sapa",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "lao-cai-1",
+          "name": "Thung lũng Mường Hoa",
+          "summary": "Ngắm cảnh thung lũng và các tuyến đi bộ.",
+          "sourceIds": [
+            "vn-lao-cai"
+          ]
+        },
+        {
+          "id": "lao-cai-2",
+          "name": "Bản Cát Cát",
+          "summary": "Tìm hiểu không gian bản làng và dịch vụ trải nghiệm.",
+          "sourceIds": [
+            "vn-lao-cai"
+          ]
+        },
+        {
+          "id": "lao-cai-3",
+          "name": "Bản Tả Phìn",
+          "summary": "Khám phá bản làng cùng hướng dẫn địa phương.",
+          "sourceIds": [
+            "vn-lao-cai"
+          ]
+        },
+        {
+          "id": "lao-cai-4",
+          "name": "Fansipan",
+          "summary": "Chọn cách tiếp cận phù hợp thể lực và điều kiện thời tiết.",
+          "sourceIds": [
+            "vn-lao-cai"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Lào Cai",
+    "request": {
+      "destination": "Lào Cai",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Lào Cai · Sa Pa & bản làng. 3 ngày dành cho 2 người. Ngắm cảnh thung lũng và các tuyến đi bộ. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Thung lũng Mường Hoa, Thưởng thức hương vị bản địa, Bản Cát Cát, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Bản Tả Phìn, Thưởng thức hương vị bản địa, Fansipan, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Thung lũng Mường Hoa, Thưởng thức hương vị bản địa, Bản Cát Cát, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.230Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124231",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Tuyên Quang · Hà Giang & cao nguyên đá",
+      "summary": "3 ngày dành cho 2 người. Tìm hiểu cảnh quan đá vôi và văn hóa vùng cao. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Cao nguyên đá Đồng Văn",
+              "description": "Khám phá Cao nguyên đá Đồng Văn, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Cao nguyên đá Đồng Văn, Tuyên Quang",
+              "cost": 566000,
+              "placeId": "tuyen-quang-1",
+              "sourceIds": [
+                "vn-tuyen-quang"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bánh tam giác mạch, xôi ngũ sắc và bánh chưng gù. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Tuyên Quang",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Cột cờ Lũng Cú",
+              "description": "Ghé Cột cờ Lũng Cú vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Cột cờ Lũng Cú, Tuyên Quang",
+              "cost": 0,
+              "placeId": "tuyen-quang-2",
+              "sourceIds": [
+                "vn-tuyen-quang"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Tuyên Quang",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Đèo Mã Pí Lèng",
+              "description": "Khám phá Đèo Mã Pí Lèng, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Đèo Mã Pí Lèng, Tuyên Quang",
+              "cost": 566000,
+              "placeId": "tuyen-quang-3",
+              "sourceIds": [
+                "vn-tuyen-quang"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bánh tam giác mạch, xôi ngũ sắc và bánh chưng gù. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Tuyên Quang",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Dinh thự họ Vương",
+              "description": "Ghé Dinh thự họ Vương vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Dinh thự họ Vương, Tuyên Quang",
+              "cost": 0,
+              "placeId": "tuyen-quang-4",
+              "sourceIds": [
+                "vn-tuyen-quang"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Tuyên Quang",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Cao nguyên đá Đồng Văn",
+              "description": "Khám phá Cao nguyên đá Đồng Văn, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Cao nguyên đá Đồng Văn, Tuyên Quang",
+              "cost": 566000,
+              "placeId": "tuyen-quang-1",
+              "sourceIds": [
+                "vn-tuyen-quang"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bánh tam giác mạch, xôi ngũ sắc và bánh chưng gù. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Tuyên Quang",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Cột cờ Lũng Cú",
+              "description": "Ghé Cột cờ Lũng Cú vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Cột cờ Lũng Cú, Tuyên Quang",
+              "cost": 0,
+              "placeId": "tuyen-quang-2",
+              "sourceIds": [
+                "vn-tuyen-quang"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Tuyên Quang",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Tour tập trung vùng Hà Giang; tránh chạy đèo ban đêm, xác minh thời gian di chuyển.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-tuyen-quang",
+        "title": "Du lịch Tuyên Quang",
+        "url": "https://vietnam.travel/things-to-do/ha-giang-loop",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [
+        "Hà Giang",
+        "Đồng Văn"
+      ],
+      "region": "Bắc",
+      "cluster": "Hà Giang & cao nguyên đá",
+      "demo": {
+        "subtitle": "Hà Giang & cao nguyên đá",
+        "places": [
+          "Cao nguyên đá Đồng Văn",
+          "Cột cờ Lũng Cú",
+          "Đèo Mã Pí Lèng",
+          "Dinh thự họ Vương"
+        ],
+        "food": "bánh tam giác mạch, xôi ngũ sắc và bánh chưng gù",
+        "detail": "Tìm hiểu cảnh quan đá vôi và văn hóa vùng cao.",
+        "note": "Tour tập trung vùng Hà Giang; tránh chạy đèo ban đêm, xác minh thời gian di chuyển."
+      },
+      "sources": [
+        {
+          "id": "vn-tuyen-quang",
+          "title": "Du lịch Tuyên Quang",
+          "url": "https://vietnam.travel/things-to-do/ha-giang-loop",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "tuyen-quang-1",
+          "name": "Cao nguyên đá Đồng Văn",
+          "summary": "Tìm hiểu cảnh quan đá vôi và văn hóa vùng cao.",
+          "sourceIds": [
+            "vn-tuyen-quang"
+          ]
+        },
+        {
+          "id": "tuyen-quang-2",
+          "name": "Cột cờ Lũng Cú",
+          "summary": "Ghé điểm tham quan trên tuyến Đồng Văn.",
+          "sourceIds": [
+            "vn-tuyen-quang"
+          ]
+        },
+        {
+          "id": "tuyen-quang-3",
+          "name": "Đèo Mã Pí Lèng",
+          "summary": "Ngắm cảnh tại khu vực dừng an toàn.",
+          "sourceIds": [
+            "vn-tuyen-quang"
+          ]
+        },
+        {
+          "id": "tuyen-quang-4",
+          "name": "Dinh thự họ Vương",
+          "summary": "Tìm hiểu kiến trúc và lịch sử địa phương.",
+          "sourceIds": [
+            "vn-tuyen-quang"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Tuyên Quang",
+    "request": {
+      "destination": "Tuyên Quang",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Tuyên Quang · Hà Giang & cao nguyên đá. 3 ngày dành cho 2 người. Tìm hiểu cảnh quan đá vôi và văn hóa vùng cao. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Cao nguyên đá Đồng Văn, Thưởng thức hương vị bản địa, Cột cờ Lũng Cú, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Đèo Mã Pí Lèng, Thưởng thức hương vị bản địa, Dinh thự họ Vương, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Cao nguyên đá Đồng Văn, Thưởng thức hương vị bản địa, Cột cờ Lũng Cú, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.231Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124234",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Cao Bằng · Thác nước & non xanh",
+      "summary": "3 ngày dành cho 2 người. Tham quan cảnh quan thác và khu vực được phép. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Thác Bản Giốc",
+              "description": "Khám phá Thác Bản Giốc, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Thác Bản Giốc, Cao Bằng",
+              "cost": 566000,
+              "placeId": "cao-bang-1",
+              "sourceIds": [
+                "vn-cao-bang"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý món ăn địa phương và sản vật vùng cao. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Cao Bằng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Động Ngườm Ngao",
+              "description": "Ghé Động Ngườm Ngao vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Động Ngườm Ngao, Cao Bằng",
+              "cost": 0,
+              "placeId": "cao-bang-2",
+              "sourceIds": [
+                "vn-cao-bang"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Cao Bằng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Khu di tích Pác Bó",
+              "description": "Khám phá Khu di tích Pác Bó, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Khu di tích Pác Bó, Cao Bằng",
+              "cost": 566000,
+              "placeId": "cao-bang-3",
+              "sourceIds": [
+                "vn-cao-bang"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý món ăn địa phương và sản vật vùng cao. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Cao Bằng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Trung tâm Cao Bằng",
+              "description": "Ghé Trung tâm Cao Bằng vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Trung tâm Cao Bằng, Cao Bằng",
+              "cost": 0,
+              "placeId": "cao-bang-4",
+              "sourceIds": [
+                "vn-cao-bang"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Cao Bằng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Thác Bản Giốc",
+              "description": "Khám phá Thác Bản Giốc, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Thác Bản Giốc, Cao Bằng",
+              "cost": 566000,
+              "placeId": "cao-bang-1",
+              "sourceIds": [
+                "vn-cao-bang"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý món ăn địa phương và sản vật vùng cao. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Cao Bằng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Động Ngườm Ngao",
+              "description": "Ghé Động Ngườm Ngao vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Động Ngườm Ngao, Cao Bằng",
+              "cost": 0,
+              "placeId": "cao-bang-2",
+              "sourceIds": [
+                "vn-cao-bang"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Cao Bằng",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Các điểm cách xa nhau; tách tuyến Bản Giốc và Pác Bó theo ngày.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-cao-bang",
+        "title": "Du lịch Cao Bằng",
+        "url": "https://vietnam.travel/things-to-do/discovering-cao-bang-7-must-do-experiences",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [],
+      "region": "Bắc",
+      "cluster": "Thác nước & non xanh",
+      "demo": {
+        "subtitle": "Thác nước & non xanh",
+        "places": [
+          "Thác Bản Giốc",
+          "Động Ngườm Ngao",
+          "Khu di tích Pác Bó",
+          "Trung tâm Cao Bằng"
+        ],
+        "food": "món ăn địa phương và sản vật vùng cao",
+        "detail": "Tham quan cảnh quan thác và khu vực được phép.",
+        "note": "Các điểm cách xa nhau; tách tuyến Bản Giốc và Pác Bó theo ngày."
+      },
+      "sources": [
+        {
+          "id": "vn-cao-bang",
+          "title": "Du lịch Cao Bằng",
+          "url": "https://vietnam.travel/things-to-do/discovering-cao-bang-7-must-do-experiences",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "cao-bang-1",
+          "name": "Thác Bản Giốc",
+          "summary": "Tham quan cảnh quan thác và khu vực được phép.",
+          "sourceIds": [
+            "vn-cao-bang"
+          ]
+        },
+        {
+          "id": "cao-bang-2",
+          "name": "Động Ngườm Ngao",
+          "summary": "Khám phá hang động trên tuyến tham quan.",
+          "sourceIds": [
+            "vn-cao-bang"
+          ]
+        },
+        {
+          "id": "cao-bang-3",
+          "name": "Khu di tích Pác Bó",
+          "summary": "Tìm hiểu địa danh lịch sử giữa cảnh quan núi rừng.",
+          "sourceIds": [
+            "vn-cao-bang"
+          ]
+        },
+        {
+          "id": "cao-bang-4",
+          "name": "Trung tâm Cao Bằng",
+          "summary": "Dạo khu trung tâm và tìm hiểu đời sống địa phương.",
+          "sourceIds": [
+            "vn-cao-bang"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Cao Bằng",
+    "request": {
+      "destination": "Cao Bằng",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Cao Bằng · Thác nước & non xanh. 3 ngày dành cho 2 người. Tham quan cảnh quan thác và khu vực được phép. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Thác Bản Giốc, Thưởng thức hương vị bản địa, Động Ngườm Ngao, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Khu di tích Pác Bó, Thưởng thức hương vị bản địa, Trung tâm Cao Bằng, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Thác Bản Giốc, Thưởng thức hương vị bản địa, Động Ngườm Ngao, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.234Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124236",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Thanh Hóa · Pù Luông xanh",
+      "summary": "3 ngày dành cho 2 người. Ghé tuyến thác với người dẫn đường phù hợp. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Thác Hiêu",
+              "description": "Khám phá Thác Hiêu, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Thác Hiêu, Thanh Hóa",
+              "cost": 566000,
+              "placeId": "thanh-hoa-1",
+              "sourceIds": [
+                "vn-thanh-hoa"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý thịt lợn địa phương, rau theo mùa và món ăn nhà sàn. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Thanh Hóa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Ruộng bậc thang Pù Luông",
+              "description": "Ghé Ruộng bậc thang Pù Luông vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Ruộng bậc thang Pù Luông, Thanh Hóa",
+              "cost": 0,
+              "placeId": "thanh-hoa-2",
+              "sourceIds": [
+                "vn-thanh-hoa"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Thanh Hóa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Bản làng Pù Luông",
+              "description": "Khám phá Bản làng Pù Luông, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Bản làng Pù Luông, Thanh Hóa",
+              "cost": 566000,
+              "placeId": "thanh-hoa-3",
+              "sourceIds": [
+                "vn-thanh-hoa"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý thịt lợn địa phương, rau theo mùa và món ăn nhà sàn. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Thanh Hóa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Làng nghề dệt Pù Luông",
+              "description": "Ghé Làng nghề dệt Pù Luông vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Làng nghề dệt Pù Luông, Thanh Hóa",
+              "cost": 0,
+              "placeId": "thanh-hoa-4",
+              "sourceIds": [
+                "vn-thanh-hoa"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Thanh Hóa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Thác Hiêu",
+              "description": "Khám phá Thác Hiêu, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Thác Hiêu, Thanh Hóa",
+              "cost": 566000,
+              "placeId": "thanh-hoa-1",
+              "sourceIds": [
+                "vn-thanh-hoa"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý thịt lợn địa phương, rau theo mùa và món ăn nhà sàn. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Thanh Hóa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Ruộng bậc thang Pù Luông",
+              "description": "Ghé Ruộng bậc thang Pù Luông vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Ruộng bậc thang Pù Luông, Thanh Hóa",
+              "cost": 0,
+              "placeId": "thanh-hoa-2",
+              "sourceIds": [
+                "vn-thanh-hoa"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Thanh Hóa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Tour tập trung Pù Luông; chọn hướng dẫn địa phương khi đi bộ đường núi.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-thanh-hoa",
+        "title": "Du lịch Thanh Hóa",
+        "url": "https://vietnam.travel/things-to-do/pu-luong-nature-lovers",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [
+        "Pù Luông"
+      ],
+      "region": "Bắc",
+      "cluster": "Pù Luông xanh",
+      "demo": {
+        "subtitle": "Pù Luông xanh",
+        "places": [
+          "Thác Hiêu",
+          "Ruộng bậc thang Pù Luông",
+          "Bản làng Pù Luông",
+          "Làng nghề dệt Pù Luông"
+        ],
+        "food": "thịt lợn địa phương, rau theo mùa và món ăn nhà sàn",
+        "detail": "Ghé tuyến thác với người dẫn đường phù hợp.",
+        "note": "Tour tập trung Pù Luông; chọn hướng dẫn địa phương khi đi bộ đường núi."
+      },
+      "sources": [
+        {
+          "id": "vn-thanh-hoa",
+          "title": "Du lịch Thanh Hóa",
+          "url": "https://vietnam.travel/things-to-do/pu-luong-nature-lovers",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "thanh-hoa-1",
+          "name": "Thác Hiêu",
+          "summary": "Ghé tuyến thác với người dẫn đường phù hợp.",
+          "sourceIds": [
+            "vn-thanh-hoa"
+          ]
+        },
+        {
+          "id": "thanh-hoa-2",
+          "name": "Ruộng bậc thang Pù Luông",
+          "summary": "Đi bộ ngắm cảnh trên lối được phép.",
+          "sourceIds": [
+            "vn-thanh-hoa"
+          ]
+        },
+        {
+          "id": "thanh-hoa-3",
+          "name": "Bản làng Pù Luông",
+          "summary": "Tìm hiểu đời sống và văn hóa bản địa.",
+          "sourceIds": [
+            "vn-thanh-hoa"
+          ]
+        },
+        {
+          "id": "thanh-hoa-4",
+          "name": "Làng nghề dệt Pù Luông",
+          "summary": "Liên hệ cơ sở địa phương để trải nghiệm thủ công.",
+          "sourceIds": [
+            "vn-thanh-hoa"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Thanh Hóa",
+    "request": {
+      "destination": "Thanh Hóa",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Thanh Hóa · Pù Luông xanh. 3 ngày dành cho 2 người. Ghé tuyến thác với người dẫn đường phù hợp. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Thác Hiêu, Thưởng thức hương vị bản địa, Ruộng bậc thang Pù Luông, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Bản làng Pù Luông, Thưởng thức hương vị bản địa, Làng nghề dệt Pù Luông, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Thác Hiêu, Thưởng thức hương vị bản địa, Ruộng bậc thang Pù Luông, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.236Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124238",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Khánh Hòa · Nha Trang & biển xanh",
+      "summary": "3 ngày dành cho 2 người. Khám phá kiến trúc và văn hóa Chăm. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Tháp Bà Ponagar",
+              "description": "Khám phá Tháp Bà Ponagar, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Tháp Bà Ponagar, Khánh Hòa",
+              "cost": 566000,
+              "placeId": "khanh-hoa-1",
+              "sourceIds": [
+                "vn-khanh-hoa"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hải sản địa phương và món ăn vùng biển. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Khánh Hòa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Chùa Long Sơn",
+              "description": "Ghé Chùa Long Sơn vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Chùa Long Sơn, Khánh Hòa",
+              "cost": 0,
+              "placeId": "khanh-hoa-2",
+              "sourceIds": [
+                "vn-khanh-hoa"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Khánh Hòa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Biển Nha Trang",
+              "description": "Khám phá Biển Nha Trang, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Biển Nha Trang, Khánh Hòa",
+              "cost": 566000,
+              "placeId": "khanh-hoa-3",
+              "sourceIds": [
+                "vn-khanh-hoa"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hải sản địa phương và món ăn vùng biển. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Khánh Hòa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Vịnh Nha Trang",
+              "description": "Ghé Vịnh Nha Trang vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Vịnh Nha Trang, Khánh Hòa",
+              "cost": 0,
+              "placeId": "khanh-hoa-4",
+              "sourceIds": [
+                "vn-khanh-hoa"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Khánh Hòa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Tháp Bà Ponagar",
+              "description": "Khám phá Tháp Bà Ponagar, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Tháp Bà Ponagar, Khánh Hòa",
+              "cost": 566000,
+              "placeId": "khanh-hoa-1",
+              "sourceIds": [
+                "vn-khanh-hoa"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hải sản địa phương và món ăn vùng biển. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Khánh Hòa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Chùa Long Sơn",
+              "description": "Ghé Chùa Long Sơn vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Chùa Long Sơn, Khánh Hòa",
+              "cost": 0,
+              "placeId": "khanh-hoa-2",
+              "sourceIds": [
+                "vn-khanh-hoa"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Khánh Hòa",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Tour tập trung Nha Trang; hoạt động biển phụ thuộc thời tiết và tuyến được phép.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-khanh-hoa",
+        "title": "Du lịch Khánh Hòa",
+        "url": "https://vietnam.travel/places-to-go/south-central-coast-central-highlands/nha-trang",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [
+        "Nha Trang"
+      ],
+      "region": "Trung",
+      "cluster": "Nha Trang & biển xanh",
+      "demo": {
+        "subtitle": "Nha Trang & biển xanh",
+        "places": [
+          "Tháp Bà Ponagar",
+          "Chùa Long Sơn",
+          "Biển Nha Trang",
+          "Vịnh Nha Trang"
+        ],
+        "food": "hải sản địa phương và món ăn vùng biển",
+        "detail": "Khám phá kiến trúc và văn hóa Chăm.",
+        "note": "Tour tập trung Nha Trang; hoạt động biển phụ thuộc thời tiết và tuyến được phép."
+      },
+      "sources": [
+        {
+          "id": "vn-khanh-hoa",
+          "title": "Du lịch Khánh Hòa",
+          "url": "https://vietnam.travel/places-to-go/south-central-coast-central-highlands/nha-trang",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "khanh-hoa-1",
+          "name": "Tháp Bà Ponagar",
+          "summary": "Khám phá kiến trúc và văn hóa Chăm.",
+          "sourceIds": [
+            "vn-khanh-hoa"
+          ]
+        },
+        {
+          "id": "khanh-hoa-2",
+          "name": "Chùa Long Sơn",
+          "summary": "Ghé không gian chùa, chọn trang phục phù hợp.",
+          "sourceIds": [
+            "vn-khanh-hoa"
+          ]
+        },
+        {
+          "id": "khanh-hoa-3",
+          "name": "Biển Nha Trang",
+          "summary": "Dạo bờ biển và nghỉ ngơi.",
+          "sourceIds": [
+            "vn-khanh-hoa"
+          ]
+        },
+        {
+          "id": "khanh-hoa-4",
+          "name": "Vịnh Nha Trang",
+          "summary": "Chọn tuyến tham quan biển phù hợp điều kiện thực tế.",
+          "sourceIds": [
+            "vn-khanh-hoa"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Khánh Hòa",
+    "request": {
+      "destination": "Khánh Hòa",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Khánh Hòa · Nha Trang & biển xanh. 3 ngày dành cho 2 người. Khám phá kiến trúc và văn hóa Chăm. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Tháp Bà Ponagar, Thưởng thức hương vị bản địa, Chùa Long Sơn, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Biển Nha Trang, Thưởng thức hương vị bản địa, Vịnh Nha Trang, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Tháp Bà Ponagar, Thưởng thức hương vị bản địa, Chùa Long Sơn, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.238Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124239",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Gia Lai · Quy Nhơn & duyên hải",
+      "summary": "3 ngày dành cho 2 người. Ngắm cảnh ven biển tại các lối tham quan được phép. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Eo Gió",
+              "description": "Khám phá Eo Gió, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Eo Gió, Gia Lai",
+              "cost": 566000,
+              "placeId": "gia-lai-1",
+              "sourceIds": [
+                "vn-gia-lai"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hải sản địa phương và món ăn miền duyên hải. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Gia Lai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Kỳ Co",
+              "description": "Ghé Kỳ Co vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Kỳ Co, Gia Lai",
+              "cost": 0,
+              "placeId": "gia-lai-2",
+              "sourceIds": [
+                "vn-gia-lai"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Gia Lai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Ghềnh Ráng",
+              "description": "Khám phá Ghềnh Ráng, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Ghềnh Ráng, Gia Lai",
+              "cost": 566000,
+              "placeId": "gia-lai-3",
+              "sourceIds": [
+                "vn-gia-lai"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hải sản địa phương và món ăn miền duyên hải. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Gia Lai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Bãi biển Quy Nhơn",
+              "description": "Ghé Bãi biển Quy Nhơn vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Bãi biển Quy Nhơn, Gia Lai",
+              "cost": 0,
+              "placeId": "gia-lai-4",
+              "sourceIds": [
+                "vn-gia-lai"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Gia Lai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Eo Gió",
+              "description": "Khám phá Eo Gió, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Eo Gió, Gia Lai",
+              "cost": 566000,
+              "placeId": "gia-lai-1",
+              "sourceIds": [
+                "vn-gia-lai"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hải sản địa phương và món ăn miền duyên hải. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Gia Lai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Kỳ Co",
+              "description": "Ghé Kỳ Co vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Kỳ Co, Gia Lai",
+              "cost": 0,
+              "placeId": "gia-lai-2",
+              "sourceIds": [
+                "vn-gia-lai"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Gia Lai",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Tour tập trung Quy Nhơn, không ghép Pleiku trong cùng buổi; kiểm tra thời tiết biển.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-gia-lai",
+        "title": "Du lịch Gia Lai",
+        "url": "https://vpub.gialai.gov.vn/article/news/tong-hop-tin-tuc-ngay-17-4-2025.html",
+        "checkedAt": "2026-10-10"
+      },
+      {
+        "id": "vn-gia-lai-extra",
+        "title": "Tham khảo Quy Nhơn & duyên hải",
+        "url": "https://vietnam.travel/things-to-do/top-things-do-central-vietnam",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [
+        "Quy Nhơn",
+        "Bình Định"
+      ],
+      "region": "Trung",
+      "cluster": "Quy Nhơn & duyên hải",
+      "demo": {
+        "subtitle": "Quy Nhơn & duyên hải",
+        "places": [
+          "Eo Gió",
+          "Kỳ Co",
+          "Ghềnh Ráng",
+          "Bãi biển Quy Nhơn"
+        ],
+        "food": "hải sản địa phương và món ăn miền duyên hải",
+        "detail": "Ngắm cảnh ven biển tại các lối tham quan được phép.",
+        "note": "Tour tập trung Quy Nhơn, không ghép Pleiku trong cùng buổi; kiểm tra thời tiết biển."
+      },
+      "sources": [
+        {
+          "id": "vn-gia-lai",
+          "title": "Du lịch Gia Lai",
+          "url": "https://vpub.gialai.gov.vn/article/news/tong-hop-tin-tuc-ngay-17-4-2025.html",
+          "checkedAt": "2026-10-10"
+        },
+        {
+          "id": "vn-gia-lai-extra",
+          "title": "Tham khảo Quy Nhơn & duyên hải",
+          "url": "https://vietnam.travel/things-to-do/top-things-do-central-vietnam",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "gia-lai-1",
+          "name": "Eo Gió",
+          "summary": "Ngắm cảnh ven biển tại các lối tham quan được phép.",
+          "sourceIds": [
+            "vn-gia-lai"
+          ]
+        },
+        {
+          "id": "gia-lai-2",
+          "name": "Kỳ Co",
+          "summary": "Chọn tuyến tham quan biển phù hợp thời tiết.",
+          "sourceIds": [
+            "vn-gia-lai"
+          ]
+        },
+        {
+          "id": "gia-lai-3",
+          "name": "Ghềnh Ráng",
+          "summary": "Ghé khu vực cảnh quan và tìm hiểu văn hóa địa phương.",
+          "sourceIds": [
+            "vn-gia-lai"
+          ]
+        },
+        {
+          "id": "gia-lai-4",
+          "name": "Bãi biển Quy Nhơn",
+          "summary": "Dạo bờ biển tại khu vực trung tâm.",
+          "sourceIds": [
+            "vn-gia-lai"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Gia Lai",
+    "request": {
+      "destination": "Gia Lai",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Gia Lai · Quy Nhơn & duyên hải. 3 ngày dành cho 2 người. Ngắm cảnh ven biển tại các lối tham quan được phép. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Eo Gió, Thưởng thức hương vị bản địa, Kỳ Co, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Ghềnh Ráng, Thưởng thức hương vị bản địa, Bãi biển Quy Nhơn, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Eo Gió, Thưởng thức hương vị bản địa, Kỳ Co, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.240Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124241",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Quảng Trị · Phong Nha & hang động",
+      "summary": "3 ngày dành cho 2 người. Tham quan theo tuyến thuyền được khai thác. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Động Phong Nha",
+              "description": "Khám phá Động Phong Nha, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Động Phong Nha, Quảng Trị",
+              "cost": 566000,
+              "placeId": "quang-tri-1",
+              "sourceIds": [
+                "vn-quang-tri"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý món ăn địa phương và hải sản vùng duyên hải. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Quảng Trị",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Động Thiên Đường",
+              "description": "Ghé Động Thiên Đường vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Động Thiên Đường, Quảng Trị",
+              "cost": 0,
+              "placeId": "quang-tri-2",
+              "sourceIds": [
+                "vn-quang-tri"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Quảng Trị",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Vườn thực vật Phong Nha",
+              "description": "Khám phá Vườn thực vật Phong Nha, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Vườn thực vật Phong Nha, Quảng Trị",
+              "cost": 566000,
+              "placeId": "quang-tri-3",
+              "sourceIds": [
+                "vn-quang-tri"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý món ăn địa phương và hải sản vùng duyên hải. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Quảng Trị",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Sông Son",
+              "description": "Ghé Sông Son vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Sông Son, Quảng Trị",
+              "cost": 0,
+              "placeId": "quang-tri-4",
+              "sourceIds": [
+                "vn-quang-tri"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Quảng Trị",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Động Phong Nha",
+              "description": "Khám phá Động Phong Nha, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Động Phong Nha, Quảng Trị",
+              "cost": 566000,
+              "placeId": "quang-tri-1",
+              "sourceIds": [
+                "vn-quang-tri"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý món ăn địa phương và hải sản vùng duyên hải. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Quảng Trị",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Động Thiên Đường",
+              "description": "Ghé Động Thiên Đường vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Động Thiên Đường, Quảng Trị",
+              "cost": 0,
+              "placeId": "quang-tri-2",
+              "sourceIds": [
+                "vn-quang-tri"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Quảng Trị",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Tour tập trung Phong Nha; tuyến hang phải đúng điều kiện mở cửa, không tự đi hang thám hiểm.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-quang-tri",
+        "title": "Du lịch Quảng Trị",
+        "url": "https://vietnam.travel/things-to-do/complete-guide-phong-nha",
+        "checkedAt": "2026-10-10"
+      },
+      {
+        "id": "vn-quang-tri-extra",
+        "title": "Tham khảo Phong Nha & hang động",
+        "url": "https://vietnam.travel/node/1571",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [
+        "Phong Nha",
+        "Quảng Bình"
+      ],
+      "region": "Trung",
+      "cluster": "Phong Nha & hang động",
+      "demo": {
+        "subtitle": "Phong Nha & hang động",
+        "places": [
+          "Động Phong Nha",
+          "Động Thiên Đường",
+          "Vườn thực vật Phong Nha",
+          "Sông Son"
+        ],
+        "food": "món ăn địa phương và hải sản vùng duyên hải",
+        "detail": "Tham quan theo tuyến thuyền được khai thác.",
+        "note": "Tour tập trung Phong Nha; tuyến hang phải đúng điều kiện mở cửa, không tự đi hang thám hiểm."
+      },
+      "sources": [
+        {
+          "id": "vn-quang-tri",
+          "title": "Du lịch Quảng Trị",
+          "url": "https://vietnam.travel/things-to-do/complete-guide-phong-nha",
+          "checkedAt": "2026-10-10"
+        },
+        {
+          "id": "vn-quang-tri-extra",
+          "title": "Tham khảo Phong Nha & hang động",
+          "url": "https://vietnam.travel/node/1571",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "quang-tri-1",
+          "name": "Động Phong Nha",
+          "summary": "Tham quan theo tuyến thuyền được khai thác.",
+          "sourceIds": [
+            "vn-quang-tri"
+          ]
+        },
+        {
+          "id": "quang-tri-2",
+          "name": "Động Thiên Đường",
+          "summary": "Khám phá hang động trên lối tham quan.",
+          "sourceIds": [
+            "vn-quang-tri"
+          ]
+        },
+        {
+          "id": "quang-tri-3",
+          "name": "Vườn thực vật Phong Nha",
+          "summary": "Đi bộ trên tuyến thiên nhiên phù hợp thể lực.",
+          "sourceIds": [
+            "vn-quang-tri"
+          ]
+        },
+        {
+          "id": "quang-tri-4",
+          "name": "Sông Son",
+          "summary": "Ngắm cảnh sông và đời sống khu vực Phong Nha.",
+          "sourceIds": [
+            "vn-quang-tri"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Quảng Trị",
+    "request": {
+      "destination": "Quảng Trị",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Quảng Trị · Phong Nha & hang động. 3 ngày dành cho 2 người. Tham quan theo tuyến thuyền được khai thác. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Động Phong Nha, Thưởng thức hương vị bản địa, Động Thiên Đường, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Vườn thực vật Phong Nha, Thưởng thức hương vị bản địa, Sông Son, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Động Phong Nha, Thưởng thức hương vị bản địa, Động Thiên Đường, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.241Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124242",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Phú Thọ · Mai Châu & nhà sàn",
+      "summary": "3 ngày dành cho 2 người. Tìm hiểu văn hóa và đời sống bản làng. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Bản Lác",
+              "description": "Khám phá Bản Lác, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Bản Lác, Phú Thọ",
+              "cost": 566000,
+              "placeId": "phu-tho-1",
+              "sourceIds": [
+                "vn-phu-tho"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bữa ăn nhà sàn và món ăn địa phương. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Phú Thọ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Bản Pom Coọng",
+              "description": "Ghé Bản Pom Coọng vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Bản Pom Coọng, Phú Thọ",
+              "cost": 0,
+              "placeId": "phu-tho-2",
+              "sourceIds": [
+                "vn-phu-tho"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Phú Thọ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Thung lũng Mai Châu",
+              "description": "Khám phá Thung lũng Mai Châu, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Thung lũng Mai Châu, Phú Thọ",
+              "cost": 566000,
+              "placeId": "phu-tho-3",
+              "sourceIds": [
+                "vn-phu-tho"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bữa ăn nhà sàn và món ăn địa phương. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Phú Thọ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Chợ Mai Châu",
+              "description": "Ghé Chợ Mai Châu vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Chợ Mai Châu, Phú Thọ",
+              "cost": 0,
+              "placeId": "phu-tho-4",
+              "sourceIds": [
+                "vn-phu-tho"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Phú Thọ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Bản Lác",
+              "description": "Khám phá Bản Lác, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Bản Lác, Phú Thọ",
+              "cost": 566000,
+              "placeId": "phu-tho-1",
+              "sourceIds": [
+                "vn-phu-tho"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bữa ăn nhà sàn và món ăn địa phương. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Phú Thọ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Bản Pom Coọng",
+              "description": "Ghé Bản Pom Coọng vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Bản Pom Coọng, Phú Thọ",
+              "cost": 0,
+              "placeId": "phu-tho-2",
+              "sourceIds": [
+                "vn-phu-tho"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Phú Thọ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Tour tập trung Mai Châu; xin phép khi thăm nhà dân và chụp ảnh.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-phu-tho",
+        "title": "Du lịch Phú Thọ",
+        "url": "https://vietnam.travel/node/197",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [
+        "Mai Châu",
+        "Hòa Bình"
+      ],
+      "region": "Bắc",
+      "cluster": "Mai Châu & nhà sàn",
+      "demo": {
+        "subtitle": "Mai Châu & nhà sàn",
+        "places": [
+          "Bản Lác",
+          "Bản Pom Coọng",
+          "Thung lũng Mai Châu",
+          "Chợ Mai Châu"
+        ],
+        "food": "bữa ăn nhà sàn và món ăn địa phương",
+        "detail": "Tìm hiểu văn hóa và đời sống bản làng.",
+        "note": "Tour tập trung Mai Châu; xin phép khi thăm nhà dân và chụp ảnh."
+      },
+      "sources": [
+        {
+          "id": "vn-phu-tho",
+          "title": "Du lịch Phú Thọ",
+          "url": "https://vietnam.travel/node/197",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "phu-tho-1",
+          "name": "Bản Lác",
+          "summary": "Tìm hiểu văn hóa và đời sống bản làng.",
+          "sourceIds": [
+            "vn-phu-tho"
+          ]
+        },
+        {
+          "id": "phu-tho-2",
+          "name": "Bản Pom Coọng",
+          "summary": "Ghé không gian nhà sàn và nghề thủ công.",
+          "sourceIds": [
+            "vn-phu-tho"
+          ]
+        },
+        {
+          "id": "phu-tho-3",
+          "name": "Thung lũng Mai Châu",
+          "summary": "Đạp xe hoặc đi bộ trên tuyến phù hợp.",
+          "sourceIds": [
+            "vn-phu-tho"
+          ]
+        },
+        {
+          "id": "phu-tho-4",
+          "name": "Chợ Mai Châu",
+          "summary": "Tìm hiểu sản vật và hàng thủ công; xác minh lịch họp chợ.",
+          "sourceIds": [
+            "vn-phu-tho"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Phú Thọ",
+    "request": {
+      "destination": "Phú Thọ",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Phú Thọ · Mai Châu & nhà sàn. 3 ngày dành cho 2 người. Tìm hiểu văn hóa và đời sống bản làng. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Bản Lác, Thưởng thức hương vị bản địa, Bản Pom Coọng, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Thung lũng Mai Châu, Thưởng thức hương vị bản địa, Chợ Mai Châu, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Bản Lác, Thưởng thức hương vị bản địa, Bản Pom Coọng, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.243Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124244",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Đắk Lắk · Cà phê & đại ngàn",
+      "summary": "3 ngày dành cho 2 người. Trải nghiệm văn hóa cà phê và đời sống đô thị. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Buôn Ma Thuột",
+              "description": "Khám phá Buôn Ma Thuột, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Buôn Ma Thuột, Đắk Lắk",
+              "cost": 566000,
+              "placeId": "dak-lak-1",
+              "sourceIds": [
+                "vn-dak-lak"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý cà phê và món ăn bản địa Tây Nguyên. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Đắk Lắk",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Hồ Lắk",
+              "description": "Ghé Hồ Lắk vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Hồ Lắk, Đắk Lắk",
+              "cost": 0,
+              "placeId": "dak-lak-2",
+              "sourceIds": [
+                "vn-dak-lak"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Đắk Lắk",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Vườn quốc gia Yok Đôn",
+              "description": "Khám phá Vườn quốc gia Yok Đôn, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Vườn quốc gia Yok Đôn, Đắk Lắk",
+              "cost": 566000,
+              "placeId": "dak-lak-3",
+              "sourceIds": [
+                "vn-dak-lak"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý cà phê và món ăn bản địa Tây Nguyên. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Đắk Lắk",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Buôn làng Ê Đê",
+              "description": "Ghé Buôn làng Ê Đê vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Buôn làng Ê Đê, Đắk Lắk",
+              "cost": 0,
+              "placeId": "dak-lak-4",
+              "sourceIds": [
+                "vn-dak-lak"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Đắk Lắk",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Buôn Ma Thuột",
+              "description": "Khám phá Buôn Ma Thuột, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Buôn Ma Thuột, Đắk Lắk",
+              "cost": 566000,
+              "placeId": "dak-lak-1",
+              "sourceIds": [
+                "vn-dak-lak"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý cà phê và món ăn bản địa Tây Nguyên. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Đắk Lắk",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Hồ Lắk",
+              "description": "Ghé Hồ Lắk vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Hồ Lắk, Đắk Lắk",
+              "cost": 0,
+              "placeId": "dak-lak-2",
+              "sourceIds": [
+                "vn-dak-lak"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Đắk Lắk",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Tách tuyến hồ Lắk và Yok Đôn theo ngày; ưu tiên trải nghiệm bảo tồn, không cưỡi voi.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-dak-lak",
+        "title": "Du lịch Đắk Lắk",
+        "url": "https://vietnam.travel/node/1788",
+        "checkedAt": "2026-10-10"
+      },
+      {
+        "id": "vn-dak-lak-extra",
+        "title": "Tham khảo Cà phê & đại ngàn",
+        "url": "https://vietnam.travel/vi/things-to-do/discovering-dak-lak-province",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [
+        "Buôn Ma Thuột",
+        "Daklak"
+      ],
+      "region": "Trung",
+      "cluster": "Cà phê & đại ngàn",
+      "demo": {
+        "subtitle": "Cà phê & đại ngàn",
+        "places": [
+          "Buôn Ma Thuột",
+          "Hồ Lắk",
+          "Vườn quốc gia Yok Đôn",
+          "Buôn làng Ê Đê"
+        ],
+        "food": "cà phê và món ăn bản địa Tây Nguyên",
+        "detail": "Trải nghiệm văn hóa cà phê và đời sống đô thị.",
+        "note": "Tách tuyến hồ Lắk và Yok Đôn theo ngày; ưu tiên trải nghiệm bảo tồn, không cưỡi voi."
+      },
+      "sources": [
+        {
+          "id": "vn-dak-lak",
+          "title": "Du lịch Đắk Lắk",
+          "url": "https://vietnam.travel/node/1788",
+          "checkedAt": "2026-10-10"
+        },
+        {
+          "id": "vn-dak-lak-extra",
+          "title": "Tham khảo Cà phê & đại ngàn",
+          "url": "https://vietnam.travel/vi/things-to-do/discovering-dak-lak-province",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "dak-lak-1",
+          "name": "Buôn Ma Thuột",
+          "summary": "Trải nghiệm văn hóa cà phê và đời sống đô thị.",
+          "sourceIds": [
+            "vn-dak-lak"
+          ]
+        },
+        {
+          "id": "dak-lak-2",
+          "name": "Hồ Lắk",
+          "summary": "Ngắm cảnh hồ và tìm hiểu sinh hoạt địa phương.",
+          "sourceIds": [
+            "vn-dak-lak"
+          ]
+        },
+        {
+          "id": "dak-lak-3",
+          "name": "Vườn quốc gia Yok Đôn",
+          "summary": "Chọn tuyến thiên nhiên có hướng dẫn và điều kiện phù hợp.",
+          "sourceIds": [
+            "vn-dak-lak"
+          ]
+        },
+        {
+          "id": "dak-lak-4",
+          "name": "Buôn làng Ê Đê",
+          "summary": "Liên hệ cộng đồng địa phương để tìm hiểu văn hóa.",
+          "sourceIds": [
+            "vn-dak-lak"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Đắk Lắk",
+    "request": {
+      "destination": "Đắk Lắk",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Đắk Lắk · Cà phê & đại ngàn. 3 ngày dành cho 2 người. Trải nghiệm văn hóa cà phê và đời sống đô thị. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Buôn Ma Thuột, Thưởng thức hương vị bản địa, Hồ Lắk, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Vườn quốc gia Yok Đôn, Thưởng thức hương vị bản địa, Buôn làng Ê Đê, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Buôn Ma Thuột, Thưởng thức hương vị bản địa, Hồ Lắk, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.244Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124246",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Tây Ninh · Núi Bà Đen & văn hóa",
+      "summary": "3 ngày dành cho 2 người. Tham quan núi theo tuyến phù hợp thể lực. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Núi Bà Đen",
+              "description": "Khám phá Núi Bà Đen, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Núi Bà Đen, Tây Ninh",
+              "cost": 566000,
+              "placeId": "tay-ninh-1",
+              "sourceIds": [
+                "vn-tay-ninh"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bánh tráng và món ăn địa phương. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Tây Ninh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Tòa thánh Tây Ninh",
+              "description": "Ghé Tòa thánh Tây Ninh vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Tòa thánh Tây Ninh, Tây Ninh",
+              "cost": 0,
+              "placeId": "tay-ninh-2",
+              "sourceIds": [
+                "vn-tay-ninh"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Tây Ninh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Hồ Dầu Tiếng",
+              "description": "Khám phá Hồ Dầu Tiếng, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Hồ Dầu Tiếng, Tây Ninh",
+              "cost": 566000,
+              "placeId": "tay-ninh-3",
+              "sourceIds": [
+                "vn-tay-ninh"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bánh tráng và món ăn địa phương. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Tây Ninh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Ma Thiên Lãnh",
+              "description": "Ghé Ma Thiên Lãnh vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Ma Thiên Lãnh, Tây Ninh",
+              "cost": 0,
+              "placeId": "tay-ninh-4",
+              "sourceIds": [
+                "vn-tay-ninh"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Tây Ninh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Núi Bà Đen",
+              "description": "Khám phá Núi Bà Đen, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Núi Bà Đen, Tây Ninh",
+              "cost": 566000,
+              "placeId": "tay-ninh-1",
+              "sourceIds": [
+                "vn-tay-ninh"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý bánh tráng và món ăn địa phương. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Tây Ninh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Tòa thánh Tây Ninh",
+              "description": "Ghé Tòa thánh Tây Ninh vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Tòa thánh Tây Ninh, Tây Ninh",
+              "cost": 0,
+              "placeId": "tay-ninh-2",
+              "sourceIds": [
+                "vn-tay-ninh"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Tây Ninh",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Kiểm tra tuyến lên núi; tôn trọng quy định trang phục và nghi lễ tại cơ sở tôn giáo.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-tay-ninh",
+        "title": "Du lịch Tây Ninh",
+        "url": "https://dulich.tayninh.gov.vn/tin-tuc/du-lich-tam-linh-va-vesak-2025-co-hoi-lon-cho-tay-ninh-1385",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [],
+      "region": "Nam",
+      "cluster": "Núi Bà Đen & văn hóa",
+      "demo": {
+        "subtitle": "Núi Bà Đen & văn hóa",
+        "places": [
+          "Núi Bà Đen",
+          "Tòa thánh Tây Ninh",
+          "Hồ Dầu Tiếng",
+          "Ma Thiên Lãnh"
+        ],
+        "food": "bánh tráng và món ăn địa phương",
+        "detail": "Tham quan núi theo tuyến phù hợp thể lực.",
+        "note": "Kiểm tra tuyến lên núi; tôn trọng quy định trang phục và nghi lễ tại cơ sở tôn giáo."
+      },
+      "sources": [
+        {
+          "id": "vn-tay-ninh",
+          "title": "Du lịch Tây Ninh",
+          "url": "https://dulich.tayninh.gov.vn/tin-tuc/du-lich-tam-linh-va-vesak-2025-co-hoi-lon-cho-tay-ninh-1385",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "tay-ninh-1",
+          "name": "Núi Bà Đen",
+          "summary": "Tham quan núi theo tuyến phù hợp thể lực.",
+          "sourceIds": [
+            "vn-tay-ninh"
+          ]
+        },
+        {
+          "id": "tay-ninh-2",
+          "name": "Tòa thánh Tây Ninh",
+          "summary": "Tìm hiểu kiến trúc và văn hóa Cao Đài.",
+          "sourceIds": [
+            "vn-tay-ninh"
+          ]
+        },
+        {
+          "id": "tay-ninh-3",
+          "name": "Hồ Dầu Tiếng",
+          "summary": "Ngắm cảnh hồ tại khu vực tiếp cận được phép.",
+          "sourceIds": [
+            "vn-tay-ninh"
+          ]
+        },
+        {
+          "id": "tay-ninh-4",
+          "name": "Ma Thiên Lãnh",
+          "summary": "Khám phá cảnh quan với tuyến và hướng dẫn phù hợp.",
+          "sourceIds": [
+            "vn-tay-ninh"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Tây Ninh",
+    "request": {
+      "destination": "Tây Ninh",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Tây Ninh · Núi Bà Đen & văn hóa. 3 ngày dành cho 2 người. Tham quan núi theo tuyến phù hợp thể lực. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Núi Bà Đen, Thưởng thức hương vị bản địa, Tòa thánh Tây Ninh, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Hồ Dầu Tiếng, Thưởng thức hương vị bản địa, Ma Thiên Lãnh, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Núi Bà Đen, Thưởng thức hương vị bản địa, Tòa thánh Tây Ninh, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.246Z"
+  },
+  {
+    "demo": true,
+    "requestId": "demo-1791644124247",
+    "revision": 0,
+    "emailStatus": "demo",
+    "packing": [
+      "Giấy tờ tùy thân",
+      "Giày đi bộ",
+      "Sạc và pin dự phòng",
+      "Kem chống nắng",
+      "Áo khoác nhẹ / áo mưa"
+    ],
+    "itinerary": {
+      "title": "Cần Thơ · Chợ nổi & miệt vườn",
+      "summary": "3 ngày dành cho 2 người. Tìm hiểu sinh hoạt thương mại trên sông. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Chạm vào nhịp sống địa phương",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Chợ nổi Cái Răng",
+              "description": "Khám phá Chợ nổi Cái Răng, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Chợ nổi Cái Răng, Cần Thơ",
+              "cost": 566000,
+              "placeId": "can-tho-1",
+              "sourceIds": [
+                "vn-can-tho"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hủ tiếu và món ăn miệt vườn. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Cần Thơ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Bến Ninh Kiều",
+              "description": "Ghé Bến Ninh Kiều vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Bến Ninh Kiều, Cần Thơ",
+              "cost": 0,
+              "placeId": "can-tho-2",
+              "sourceIds": [
+                "vn-can-tho"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Cần Thơ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Thêm một ngày, thêm một khám phá",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Nhà cổ Bình Thủy",
+              "description": "Khám phá Nhà cổ Bình Thủy, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Nhà cổ Bình Thủy, Cần Thơ",
+              "cost": 566000,
+              "placeId": "can-tho-3",
+              "sourceIds": [
+                "vn-can-tho"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hủ tiếu và món ăn miệt vườn. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Cần Thơ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Chùa Ông Cần Thơ",
+              "description": "Ghé Chùa Ông Cần Thơ vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Chùa Ông Cần Thơ, Cần Thơ",
+              "cost": 0,
+              "placeId": "can-tho-4",
+              "sourceIds": [
+                "vn-can-tho"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Nghỉ ngơi và khám phá buổi tối",
+              "description": "Nhận phòng và nghỉ ngơi. Tiền phòng nằm trong bảng ngân sách riêng.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Cần Thơ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chậm lại và mang ký ức về",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Chợ nổi Cái Răng",
+              "description": "Khám phá Chợ nổi Cái Răng, dành thời gian ngắm cảnh và chụp ảnh. Bạn có thể nghỉ lâu hơn giữa các điểm.",
+              "category": "activities",
+              "location": "Chợ nổi Cái Răng, Cần Thơ",
+              "cost": 566000,
+              "placeId": "can-tho-1",
+              "sourceIds": [
+                "vn-can-tho"
+              ],
+              "costBasis": "AI_ESTIMATE"
+            },
+            {
+              "time": "12:00",
+              "name": "Thưởng thức hương vị bản địa",
+              "description": "Gợi ý hủ tiếu và món ăn miệt vườn. Khoản này gồm dự trù các bữa ăn trong ngày cho 2 người.",
+              "category": "food",
+              "location": "Nhà hàng địa phương, Cần Thơ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "14:30",
+              "name": "Bến Ninh Kiều",
+              "description": "Ghé Bến Ninh Kiều vào buổi chiều. Dự trù di chuyển trong ngày bằng taxi / xe công nghệ; xác minh quãng đường trước khi đi.",
+              "category": "transport",
+              "location": "Bến Ninh Kiều, Cần Thơ",
+              "cost": 0,
+              "placeId": "can-tho-2",
+              "sourceIds": [
+                "vn-can-tho"
+              ],
+              "costBasis": "BUDGET_TABLE"
+            },
+            {
+              "time": "19:00",
+              "name": "Khép lại hành trình",
+              "description": "Tự do mua quà và chuẩn bị trở về; không tính thêm đêm lưu trú cuối.",
+              "category": "accommodation",
+              "location": "Khu trung tâm, Cần Thơ",
+              "cost": 0,
+              "placeId": "",
+              "sourceIds": [],
+              "costBasis": "BUDGET_TABLE"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Chợ nổi cần khởi hành sớm; chọn dịch vụ thuyền có áo phao.",
+        "Xác minh giờ mở cửa, giá vé và đặt phòng trước chuyến đi."
+      ],
+      "totalEstimatedCost": 8998000
+    },
+    "budgetAudit": {
+      "budget": 10000000,
+      "total": 8998000,
+      "subtotal": 7998000,
+      "remaining": 1002000,
+      "overBudget": false,
+      "breakdown": {
+        "arrival": 3000000,
+        "accommodation": 1200000,
+        "food": 1200000,
+        "transport": 900000,
+        "activities": 1698000,
+        "reserve": 1000000
+      },
+      "nights": 2,
+      "rooms": 1,
+      "complete": false,
+      "activityAllowance": 2700000,
+      "perPerson": 4499000,
+      "activityTickets": 1698000,
+      "activityEstimate": 900000,
+      "activityBuffer": 0
+    },
+    "warnings": [
+      "Đơn giá phòng, ăn uống, di chuyển và vé là dự toán; nguồn điểm đến không xác nhận giá hoặc giờ mở cửa.",
+      "Tiền vé khứ hồi đã được cộng theo mức tạm nhập, nhưng chưa xác nhận đủ chi phí. Hãy kiểm tra lại báo giá."
+    ],
+    "sources": [
+      {
+        "id": "vn-can-tho",
+        "title": "Du lịch Cần Thơ",
+        "url": "https://vietnam.travel/things-to-do/can-tho-glimpse-river-and-garden",
+        "checkedAt": "2026-10-10"
+      },
+      {
+        "id": "vn-can-tho-extra",
+        "title": "Tham khảo Chợ nổi & miệt vườn",
+        "url": "https://vietnam.travel/places-to-go/southern-vietnam/can-tho",
+        "checkedAt": "2026-10-10"
+      }
+    ],
+    "destinationContext": {
+      "aliases": [],
+      "region": "Nam",
+      "cluster": "Chợ nổi & miệt vườn",
+      "demo": {
+        "subtitle": "Chợ nổi & miệt vườn",
+        "places": [
+          "Chợ nổi Cái Răng",
+          "Bến Ninh Kiều",
+          "Nhà cổ Bình Thủy",
+          "Chùa Ông Cần Thơ"
+        ],
+        "food": "hủ tiếu và món ăn miệt vườn",
+        "detail": "Tìm hiểu sinh hoạt thương mại trên sông.",
+        "note": "Chợ nổi cần khởi hành sớm; chọn dịch vụ thuyền có áo phao."
+      },
+      "sources": [
+        {
+          "id": "vn-can-tho",
+          "title": "Du lịch Cần Thơ",
+          "url": "https://vietnam.travel/things-to-do/can-tho-glimpse-river-and-garden",
+          "checkedAt": "2026-10-10"
+        },
+        {
+          "id": "vn-can-tho-extra",
+          "title": "Tham khảo Chợ nổi & miệt vườn",
+          "url": "https://vietnam.travel/places-to-go/southern-vietnam/can-tho",
+          "checkedAt": "2026-10-10"
+        }
+      ],
+      "places": [
+        {
+          "id": "can-tho-1",
+          "name": "Chợ nổi Cái Răng",
+          "summary": "Tìm hiểu sinh hoạt thương mại trên sông.",
+          "sourceIds": [
+            "vn-can-tho"
+          ]
+        },
+        {
+          "id": "can-tho-2",
+          "name": "Bến Ninh Kiều",
+          "summary": "Dạo bờ sông và ngắm cảnh đô thị.",
+          "sourceIds": [
+            "vn-can-tho"
+          ]
+        },
+        {
+          "id": "can-tho-3",
+          "name": "Nhà cổ Bình Thủy",
+          "summary": "Khám phá kiến trúc và lịch sử ngôi nhà.",
+          "sourceIds": [
+            "vn-can-tho"
+          ]
+        },
+        {
+          "id": "can-tho-4",
+          "name": "Chùa Ông Cần Thơ",
+          "summary": "Ghé công trình văn hóa tại khu vực trung tâm.",
+          "sourceIds": [
+            "vn-can-tho"
+          ]
+        }
+      ]
+    },
+    "schemaVersion": 3,
+    "destination": "Cần Thơ",
+    "request": {
+      "destination": "Cần Thơ",
+      "days": 3,
+      "people": 2,
+      "budget": 10000000,
+      "transport": "Taxi / xe công nghệ",
+      "interests": [
+        "Thiên nhiên",
+        "Văn hóa",
+        "Ẩm thực"
+      ],
+      "startDate": "",
+      "pace": "Thư thả",
+      "origin": "",
+      "costSettings": {
+        "activitiesPerPersonDay": 150000,
+        "arrivalPerPerson": 1500000,
+        "arrivalKnown": false,
+        "roomPerNight": 600000,
+        "peoplePerRoom": 2,
+        "accommodationIncluded": false,
+        "foodPerPersonDay": 200000,
+        "localTransportPerDay": 300000,
+        "reservePercent": 10
+      }
+    },
+    "narration": "Xin chào! Mình là An, hướng dẫn viên ảo. Cần Thơ · Chợ nổi & miệt vườn. 3 ngày dành cho 2 người. Tìm hiểu sinh hoạt thương mại trên sông. Sở thích: Thiên nhiên, Văn hóa, Ẩm thực. Đây là lịch trình mẫu để trải nghiệm giao diện, không phải kết quả AI. Ngày 1, Chạm vào nhịp sống địa phương. Chợ nổi Cái Răng, Thưởng thức hương vị bản địa, Bến Ninh Kiều, Nghỉ ngơi và khám phá buổi tối Ngày 2, Thêm một ngày, thêm một khám phá. Nhà cổ Bình Thủy, Thưởng thức hương vị bản địa, Chùa Ông Cần Thơ, Nghỉ ngơi và khám phá buổi tối Ngày 3, Chậm lại và mang ký ức về. Chợ nổi Cái Răng, Thưởng thức hương vị bản địa, Bến Ninh Kiều, Khép lại hành trình Tổng dự toán gồm dự phòng là 8.998.000 đồng. Tiền vé đến điểm đến là mức tạm nhập, chưa được xác nhận. ",
+    "emailSent": false,
+    "generatedAt": "2026-10-10T14:55:24.247Z"
+  }
+]

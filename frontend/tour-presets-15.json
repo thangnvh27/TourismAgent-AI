@@ -1,0 +1,287 @@
+[
+  {
+    "destination": "Hà Nội",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "TP. Hồ Chí Minh",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Huế",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Hải Phòng",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Lào Cai",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Tuyên Quang",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Cao Bằng",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Thanh Hóa",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Khánh Hòa",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Gia Lai",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Quảng Trị",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Phú Thọ",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Đắk Lắk",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Tây Ninh",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  },
+  {
+    "destination": "Cần Thơ",
+    "days": 3,
+    "people": 2,
+    "budget": 10000000,
+    "pace": "Thư thả",
+    "transport": "Taxi / xe công nghệ",
+    "interests": [
+      "Thiên nhiên",
+      "Văn hóa",
+      "Ẩm thực"
+    ],
+    "sendEmail": false,
+    "costSettings": {
+      "arrivalKnown": false,
+      "arrivalPerPerson": 1500000,
+      "activitiesPerPersonDay": 150000
+    }
+  }
+]

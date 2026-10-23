@@ -1,0 +1,30 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {pathToFileURL,fileURLToPath} from 'node:url';
+const base=fileURLToPath(new URL('../',import.meta.url));
+const {catalog}=await import(pathToFileURL(base+'/frontend/catalog.js'));
+const {makeDemo,validTrip}=await import(pathToFileURL(base+'/frontend/core.js'));
+const {normalizeRequest,validateRequest,getContext,guidePrompt}=await import(pathToFileURL(base+'/frontend/tour-engine.js'));
+const {parseIdea}=await import(pathToFileURL(base+'/frontend/studio-utils.js'));
+const presets=JSON.parse(fs.readFileSync(base+'/frontend/tour-presets-15.json','utf8'));
+const wf=JSON.parse(fs.readFileSync(base+'/workflows/AI Tourism v3 - 21 destinations.json','utf8'));
+const original=JSON.parse(fs.readFileSync(base+'/workflows/AI Tourism v3.json','utf8'));
+assert.equal(Object.keys(catalog).length,21);assert.equal(presets.length,15);
+assert.deepEqual(wf.connections,original.connections);assert.deepEqual(wf.nodes.map(n=>[n.id,n.type,n.parameters.path,n.credentials]),original.nodes.map(n=>[n.id,n.type,n.parameters.path,n.credentials]));
+const validateNode=new Function('$json',wf.nodes.find(n=>n.name.startsWith('03')).parameters.jsCode);
+const samples=[];
+for(const preset of presets){
+  const request=normalizeRequest(preset);assert.deepEqual(validateRequest(request),[]);
+  const tour=makeDemo(request);assert(validTrip(tour),preset.destination);assert.equal(tour.destination,preset.destination);
+  assert(tour.itinerary.title.includes(catalog[preset.destination].cluster));
+  assert.equal(tour.itinerary.days.length,3);assert(tour.budgetAudit.breakdown.arrival>0);assert(tour.budgetAudit.breakdown.activities>0);
+  assert.equal(validateNode({request})[0].json.valid,true);
+  assert.equal(parseIdea('Đi '+preset.destination+' 3 ngày 2 người 10 triệu').destination,preset.destination);
+  for(const alias of catalog[preset.destination].aliases)assert.equal(parseIdea('Đi '+alias+' 3 ngày').destination,preset.destination);
+  const context=getContext(preset.destination);assert(context.places.length>=4);assert(context.sources.length>=1);
+  guidePrompt({question:'Ăn gì?',destination:preset.destination,itinerary:tour.itinerary,request:tour.request});
+  samples.push(tour);
+}
+assert.equal(parseIdea('Đi nghệ thuật 3 ngày').destination,undefined);
+fs.writeFileSync(base+'/workflows/tour-samples-15.json',JSON.stringify(samples,null,2)+'\n');
+console.log('PASS: 21 destinations, 15 valid tour samples, costs, voice aliases, guide context, n8n validation and preserved workflow settings.');
