@@ -6,6 +6,7 @@ import {fileURLToPath,pathToFileURL} from 'node:url';
 import {parseEnv} from './scripts/env.mjs';
 import {firebaseStore} from './backend/store.mjs';
 import {createService,ApiError} from './backend/service.mjs';
+import {authFailure} from './backend/auth-error.mjs';
 const root=dirname(fileURLToPath(import.meta.url));
 export async function createApp({env=process.env,store,verifyToken,forward}={}){
   const firebaseConfig={projectId:env.FIREBASE_PROJECT_ID||'',apiKey:env.FIREBASE_WEB_API_KEY||'',authDomain:env.FIREBASE_AUTH_DOMAIN||'',appId:env.FIREBASE_WEB_APP_ID||''};
@@ -14,7 +15,9 @@ export async function createApp({env=process.env,store,verifyToken,forward}={}){
   verifyToken??=store?.verifyToken;
   const n8nReady=Boolean(env.N8N_TRIP_URL&&env.N8N_GUIDE_URL);
   const proxy=forward||n8nForward(env);
-  const service=store?createService({store,forward:proxy}):null;if(service)service.schedule();
+  const requestedGenerateLimit=Number(env.DAILY_GENERATE_LIMIT||3);
+  const generateLimit=Number.isSafeInteger(requestedGenerateLimit)&&requestedGenerateLimit>0?requestedGenerateLimit:3;
+  const service=store?createService({store,forward:proxy,limits:{generate:generateLimit,guide:20,email:3}}):null;if(service)service.schedule();
   const rate=new Map(),mime={'.html':'text/html','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.jpg':'image/jpeg','.png':'image/png'};
   const json=(res,status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(data));};
   const server=http.createServer(async(req,res)=>{
@@ -26,7 +29,7 @@ export async function createApp({env=process.env,store,verifyToken,forward}={}){
         if(!service)return json(res,503,{code:'FIREBASE_SETUP_REQUIRED',error:'Chưa cấu hình Firebase. Chế độ demo vẫn hoạt động.'});
         const address=req.socket.remoteAddress||'unknown',now=Date.now();for(const [k,v]of rate)if(v.until<=now)rate.delete(k);const count=rate.get(address)||{n:0,until:now+60000};if(++count.n>120)return json(res,429,{code:'RATE_LIMIT',error:'Quá nhiều yêu cầu. Thử lại sau một phút.'});rate.set(address,count);
         if(req.headers.origin){let origin;try{origin=new URL(req.headers.origin);}catch{return json(res,403,{code:'INVALID_ORIGIN',error:'Origin không hợp lệ.'});}if(origin.host!==req.headers.host)return json(res,403,{code:'INVALID_ORIGIN',error:'Origin không hợp lệ.'});}
-        const match=String(req.headers.authorization||'').match(/^Bearer (\S+)$/);if(!match)return json(res,401,{code:'AUTH_REQUIRED',error:'Đăng nhập để dùng AI và lưu tour.'});let user;try{user=await verifyToken(match[1]);if(!/^[a-zA-Z0-9_:@.-]{1,128}$/.test(user.uid||''))throw Error();}catch{return json(res,401,{code:'AUTH_INVALID',error:'Phiên đăng nhập không hợp lệ hoặc đã hết hạn.'});}
+        const match=String(req.headers.authorization||'').match(/^Bearer (\S+)$/);if(!match)return json(res,401,{code:'AUTH_REQUIRED',error:'Đăng nhập để dùng AI và lưu tour.'});let user;try{user=await verifyToken(match[1]);if(!/^[a-zA-Z0-9_:@.-]{1,128}$/.test(user.uid||''))throw Error();}catch(e){const failure=authFailure(e);return json(res,failure.status,{code:failure.code,error:failure.error});}
         const uid=user.uid;let body={};if(['POST','PATCH','DELETE'].includes(req.method)){
           if(!String(req.headers['content-type']||'').startsWith('application/json'))return json(res,415,{error:'Cần gửi JSON.'});let bytes=0,chunks=[];for await(const c of req){bytes+=c.length;if(bytes<=512*1024)chunks.push(c);}if(bytes>512*1024)return json(res,413,{error:'Yêu cầu vượt 512 KiB.'});try{body=JSON.parse(Buffer.concat(chunks).toString()||'{}');if(!body||typeof body!=='object'||Array.isArray(body))throw Error();}catch{return json(res,400,{error:'JSON không hợp lệ.'});}
         }

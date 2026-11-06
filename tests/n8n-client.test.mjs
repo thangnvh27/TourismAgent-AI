@@ -2,6 +2,12 @@ import {test} from 'node:test';import assert from 'node:assert/strict';
 import {n8nForward} from '../backend/n8n-client.mjs';
 import {createService} from '../backend/service.mjs';import {memoryStore} from '../backend/store.mjs';
 const env={N8N_TRIP_URL:'https://example.test/webhook/trip'};
+test('unregistered production webhook explains publishing without leaking n8n diagnostics',async()=>{
+ const r=await n8nForward(env,async()=>Response.json({code:404,message:'The requested webhook "POST trip" is not registered.',stacktrace:'private local path'},{status:404}))('trip',{});
+ assert.equal(r.status,404);assert.equal(r.data.code,'N8N_WEBHOOK_NOT_REGISTERED');assert(r.data.error.includes('Publish'));assert(!JSON.stringify(r.data).includes('private'));
+ const other=await n8nForward(env,async()=>Response.json({message:'private unrelated 404'},{status:404}))('trip',{});
+ assert.equal(other.data.code,'N8N_EXECUTION_ERROR');assert(!other.data.error.includes('Publish'));
+});
 test('HTML gateway failure has a precise safe message and uncertain outcome',async()=>{
  await assert.rejects(n8nForward(env,async()=>new Response('<html>private gateway diagnostics</html>',{status:502}))('trip',{}),e=>e.status===502&&e.code==='N8N_GATEWAY_ERROR'&&e.uncertain===true&&e.message.includes('502')&&!e.message.includes('private'));
 });

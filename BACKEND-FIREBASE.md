@@ -10,7 +10,7 @@
 - Đề xuất 30 phút; duyệt transaction có revision, duyệt lặp trả biên nhận; hoàn tác một bước tăng revision mới.
 - Hỏi đáp lấy tour/lịch sử từ server. Chặn AI đổi thông tin request không được cho phép; phần chat có ô số ngày/người/ngân sách mới. Câu “Giảm ngân sách 1 triệu” cũng được nhận diện chính xác; yêu cầu cấu trúc khác chưa nhận diện cần dùng ô chỉnh hoặc tạo tour mới.
 - MailJob chống gửi trùng bền vững. Timeout không rõ kết quả thành unknown, không gửi lại tự động. Tạo tour luôn lưu trước rồi mới gửi email nếu đã yêu cầu.
-- Hạn mức tài khoản/ngày: 3 tour AI, 20 lượt hỏi/chỉnh, 3 email, 5 tour import; IP giới hạn 120 API request/phút trong một tiến trình.
+- Hạn mức tài khoản/ngày: mặc định 3 yêu cầu tạo tour AI (điều chỉnh bằng `DAILY_GENERATE_LIMIT` trong `.env`), 20 lượt hỏi/chỉnh, 3 email, 5 tour import; IP giới hạn 120 API request/phút trong một tiến trình. Cấu hình thử nghiệm local từ 24/10/2026 dùng `DAILY_GENERATE_LIMIT=30`. Lượt tạo tour được tính khi nhận job, kể cả job sau đó lỗi; ngày tính theo UTC, đặt lại lúc 07:00 giờ Việt Nam. Khởi động lại server sau khi đổi cấu hình; bộ đếm đã dùng không bị xóa.
 - Phục hồi jobs sau restart; lease hết hạn chuyển unknown. Không tuyên bố exactly-once với n8n/Gmail khi hệ thống ngoài không trả biên nhận.
 - Script cleanup chạy có giới hạn, dry-run mặc định. Xóa tour qua API dọn subcollections, bỏ payload job và địa chỉ email liên quan nhưng giữ biên nhận chống trùng.
 - Frontend có đăng nhập Google/email-password, tour trên Firebase, duyệt/hoàn tác qua server. Demo/voice trình duyệt vẫn hoạt động khi chưa cấu hình Firebase.

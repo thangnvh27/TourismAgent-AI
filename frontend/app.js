@@ -1,7 +1,7 @@
 import { backendApi, currentUser, onAccountChange, accountConfig } from './account.js';
 import { money, escapeHtml as e, makeDemo, demoAnswer, validTrip } from './core.js';
 import { finalizeTrip, normalizeRequest, validateRequest, planBudget, getContext, makeDemoProposal, balanceTrip, jsonBytes, MAX_REQUEST_BYTES } from './tour-engine.js';
-import {guideQuestions,tripChanges,voicePreferences,compactAnswer} from './guide-tools.js';
+import {guideQuestions,tripChanges,voicePreferences,compactAnswer,guideEditSummary,proposalBudgetStatus} from './guide-tools.js';
 const $ = id => document.getElementById(id);
 let current = null, chatHistory = [], chatBusy = false, generation = 0, speakingToken = 0, saved = [], recognition, voiceList = [], liveConfigured = false;
 let previousTrip = null, pendingProposal = null;
@@ -232,7 +232,7 @@ async function ask(question) {
   try {
     const response = trip.demo ? (await new Promise(resolve => setTimeout(resolve, 450)), mode === 'edit' ? demoEdit(q,trip,desiredChanges) : { answer: demoAnswer(q, trip) }) : await api('/api/guide', { mode, question: q, tripId:trip.tripId, desiredChanges });
     if (mode === 'edit' && !validTrip(response.proposal)) throw new Error('Workflow chưa trả bản đề xuất v3 hợp lệ. Kiểm tra đã import và publish v3.');
-    const answer = response.answer;
+    const answer = mode==='edit'&&trip.demo ? guideEditSummary(trip,response.proposal) : response.answer;
     if (typeof answer !== 'string' || !answer.trim()) throw new Error('Câu trả lời chưa hợp lệ. Hãy thử lại.');
     if (token !== generation) return;
     addBubble('assistant', answer); chatHistory.push({ role: 'user', content: q }, { role: 'assistant', content: answer }); chatHistory = chatHistory.slice(-40);
@@ -251,6 +251,7 @@ function showProposal(proposal, token) {
   const old = current.budgetAudit.total, delta = proposal.budgetAudit.total - old;
   const card = document.createElement('div'); card.className = 'proposal-card';
   card.innerHTML = `<strong>Bản đề xuất · chưa áp dụng</strong><p>${e(proposal.itinerary.title)}</p><ul class="proposal-diff">${tripChanges(current,proposal).map(line=>'<li>'+e(line)+'</li>').join('')}</ul><div>${money(old)} → <b>${money(proposal.budgetAudit.total)}</b></div><small>${delta > 0 ? 'Tăng ' : delta < 0 ? 'Giảm ' : 'Không đổi '}${delta ? money(Math.abs(delta)) : 'tổng dự toán'} · Ngân sách mới ${money(proposal.request.budget)}</small><p>${e(proposal.warnings.join(' '))}</p><details><summary>Xem lịch trình đề xuất</summary>${proposal.itinerary.days.map(d => `<p><strong>Ngày ${d.day} · ${e(d.title)}</strong><br>${d.activities.map(a => e(a.time) + ' · ' + e(a.name)).join('<br>')}</p>`).join('')}</details><div class="proposal-actions"><button data-apply>Áp dụng bản này</button><button data-cancel>Giữ bản hiện tại</button></div>`;
+  const budgetStatus=document.createElement('p');budgetStatus.className='proposal-budget-status'+(proposal.budgetAudit.total>proposal.request.budget?' over-budget':'');budgetStatus.setAttribute('role','status');budgetStatus.textContent=proposalBudgetStatus(proposal);card.querySelector('strong').after(budgetStatus);
   card.querySelector('[data-apply]').onclick = async () => {
     if (chatBusy || emailBusy || token !== generation || pendingProposal !== proposal) return toast('Đề xuất này đã cũ hoặc đang có yêu cầu chưa hoàn thành.');
     const applyButton=card.querySelector('[data-apply]');applyButton.disabled=true;

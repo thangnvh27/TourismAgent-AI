@@ -11,6 +11,7 @@ export function n8nForward(env,fetchImpl=fetch){return async(kind,body)=>{
    throw uncertain(502,'N8N_INVALID_RESPONSE','n8n trả phản hồi rỗng hoặc không đúng JSON. Kiểm tra execution và node Respond to Webhook trước khi tạo lại.');
  }
  if(!data||typeof data!=='object'||Array.isArray(data))throw uncertain(502,'N8N_INVALID_RESPONSE','n8n trả dữ liệu không hợp lệ. Kiểm tra execution trước khi tạo lại.');
+ if(response.status===404&&typeof data.message==='string'&&/requested webhook.+is not registered/i.test(data.message))return {status:404,data:{code:'N8N_WEBHOOK_NOT_REGISTERED',error:'Webhook n8n chưa được đăng ký. Mở n8n, kết nối credential cần thiết và Publish workflow. Kiểm tra URL production trong cấu hình backend khớp đường dẫn Webhook; yêu cầu này chưa chạy workflow.'}};
  // n8n sometimes returns its own error in message, rather than error.
  if(response.status>=400&&!data.error)data={code:data.code||'N8N_EXECUTION_ERROR',error:'n8n trả lỗi HTTP '+response.status+'. Mở Executions để xem node bị lỗi.'};
  return {status:response.status,data};

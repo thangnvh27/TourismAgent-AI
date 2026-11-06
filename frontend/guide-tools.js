@@ -22,9 +22,37 @@ export function tripChanges(before, after) {
     const a=before.itinerary.days[i],b=after.itinerary.days[i];
     if(!a)changes.push(`Thêm ngày ${i+1}: ${b.title}`);
     else if(!b)changes.push(`Bỏ ngày ${i+1}: ${a.title}`);
-    else if(JSON.stringify(a)!==JSON.stringify(b))changes.push(`Ngày ${i+1}: ${b.activities.map(x=>x.name).join(' → ')}`);
+    else if(JSON.stringify(a)!==JSON.stringify(b)){
+      const route=d=>d.activities.map(({description,...activity})=>activity);
+      changes.push(JSON.stringify(route(a))===JSON.stringify(route(b))
+        ? `Ngày ${i+1}: cập nhật tiêu đề hoặc mô tả; giữ nguyên điểm đến, giờ và chi phí.`
+        : `Ngày ${i+1}: ${b.activities.map(x=>x.name).join(' → ')}`);
+    }
   }
   return changes;
+}
+const guideMoney=value=>Number(value).toLocaleString('vi-VN')+' đ';
+export function proposalBudgetStatus(trip) {
+  const gap=trip.budgetAudit.total-trip.request.budget;
+  return gap>0
+    ? `Chưa đạt ngân sách: còn vượt ${guideMoney(gap)}. Tổng dự toán ${guideMoney(trip.budgetAudit.total)} / ngân sách ${guideMoney(trip.request.budget)}.`
+    : `Trong ngân sách dự kiến: tổng ${guideMoney(trip.budgetAudit.total)} / ${guideMoney(trip.request.budget)}${gap<0?`, còn ${guideMoney(-gap)}`:''}.`;
+}
+// Base edit claims on the validated proposal, rather than model promises.
+export function guideEditSummary(before, proposal) {
+  const audit=proposal.budgetAudit, delta=audit.total-before.budgetAudit.total;
+  const lines=[proposalBudgetStatus(proposal),delta<0?`Dự toán giảm ${guideMoney(-delta)} so với bản hiện tại.`:delta>0?`Dự toán tăng ${guideMoney(delta)} so với bản hiện tại.`:'Tổng dự toán không đổi.'];
+  const changes=tripChanges(before,proposal);
+  lines.push(changes.length?'Thay đổi thực tế:\n'+changes.map(x=>'• '+x).join('\n'):'Lịch trình và thông tin chuyến đi không đổi.');
+  const b=audit.breakdown;
+  const fixed=b.arrival+b.accommodation+b.food+b.transport+b.reserve;
+  if(audit.total>proposal.request.budget)lines.push(fixed>proposal.request.budget
+    ? `Riêng vé khứ hồi, phòng, ăn uống, di chuyển và dự phòng đã là ${guideMoney(fixed)}. Chỉ bỏ hoạt động chưa đủ; hãy chỉnh số ngày, số người hoặc xem lại đơn giá trong form.`
+    : 'Để giảm tiếp, xem các trải nghiệm trả phí hoặc điều chỉnh số ngày, số người và dự toán trong form.');
+  if(audit.activityBuffer>0)lines.push(`Còn ${guideMoney(audit.activityBuffer)} dự trù vé / trải nghiệm chưa phân bổ; chưa thể gửi email bản này. Mở phần chỉnh dự toán vé để kiểm tra.`);
+  if(JSON.stringify(before.request.costSettings)===JSON.stringify(proposal.request.costSettings))lines.push('Giữ nguyên các đơn giá đã nhập.');
+  lines.push('Đây là đề xuất chưa áp dụng. Các chi phí là dự toán, cần xác minh trước khi đặt.');
+  return lines.join('\n\n');
 }
 export function voicePreferences(raw) {
   let p={};try{p=JSON.parse(raw||'{}')||{};}catch{}

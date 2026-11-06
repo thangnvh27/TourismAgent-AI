@@ -1,5 +1,9 @@
 # Backend Firebase đã được áp dụng
 
+Dự án sử dụng n8n Cloud qua `N8N_TRIP_URL` và `N8N_GUIDE_URL` trong `.env`. Khởi động backend bằng `npm.cmd start`; khi chuyển tài khoản Cloud, cập nhật hai Production URL rồi khởi động lại backend.
+
+Kết quả kiểm tra ngày 23/10/2026: [REVIEW-2026-10-23.md](REVIEW-2026-10-23.md). Local qua kiểm thử; n8n thật đang trả HTTP 500 và Firestore còn thiếu chỉ mục phục hồi job/email.
+
 Đọc [BACKEND-FIREBASE.md](BACKEND-FIREBASE.md) để cấu hình đăng nhập, Firestore và chạy backend mới. Hướng dẫn backend cũ bên dưới được giữ để tham khảo; AI/lưu cloud hiện yêu cầu Firebase và đăng nhập.
 
 # Vietjourney · AI Tourism v3
@@ -8,7 +12,7 @@
 
 ## Chạy ứng dụng
 
-Yêu cầu Node.js 20+. Không cần Python, `.venv` hoặc cài npm dependency.
+Yêu cầu Node.js 20+. Chạy `npm.cmd install` để cài dependency Firebase Admin. Không cần Python hoặc `.venv`.
 
 ```powershell
 Copy-Item .env.example .env # Chỉ chạy nếu chưa có .env
@@ -127,3 +131,5 @@ node scripts/check-live.mjs --ai
 Kiểm thử bao gồm ngân sách theo phòng/đêm, cảnh báo khoản thiếu, tránh cộng trùng, kiểm tra nguồn, đề xuất chỉnh tour, requestPatch, lỗi AI và thực thi code node v3 bằng mock đầu ra model. Không thay thế thử nghiệm với credential thật trên n8n Cloud.
 
 `check-live --ai` gọi AI thật để tạo và đề xuất chỉnh một tour, có thể phát sinh phí API. Script luôn đặt sendEmail=false và không gửi email. Chạy sau khi Publish workflow mới. Khi n8n trả HTML thay JSON, server hiển thị HTTP status từ upstream để phân biệt lỗi cloud với lỗi đầu vào.
+
+Backend Firebase yêu cầu biến môi trường `FIREBASE_ID_TOKEN` chứa ID token còn hạn của người dùng đã đăng nhập khi chạy `node scripts/check-live.mjs --ai`. Không gửi token vào chat hoặc lưu vào repository. Script lưu một tour kiểm tra vào tài khoản, dùng hạn mức AI, chờ job nền và chỉ tạo đề xuất chỉnh sửa, không duyệt tự động. Chạy không có `--ai` chỉ kiểm tra cấu hình/health; không xác minh kết nối cloud. Dùng `npm.cmd run firebase:check` để kiểm tra kết nối Firestore và các truy vấn danh sách/phục hồi; script sẽ báo lỗi nếu thiếu index.
